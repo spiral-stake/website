@@ -47,10 +47,10 @@ function App() {
         </div>
 
         <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-12 animate-fade-in-up font-light">
-          Next-gen liquidity management for Stakers
+          The next-gen liquidity management for Stakers.
         </p>
 
-        <div className="max-w-md mx-auto">
+        <div className="max-w-md mx-auto animate-fade-in-up delay-200">
           <a
             href="https://t.me/+OYYtaiH9ex9kZDQ9"
             target="_blank"
@@ -59,13 +59,6 @@ function App() {
           >
             Join Beta Testers on Telegram
           </a>
-
-          {error && <p className="mt-4 text-red-500 animate-fade-in">{error}</p>}
-          {isSuccess && (
-            <p className="mt-4 text-green-400 animate-fade-in">
-              Thank you for subscribing! We'll keep you updated.
-            </p>
-          )}
         </div>
 
         <p className="mt-12 text-gray-400 text-sm animate-fade-in-up delay-300 font-light">
