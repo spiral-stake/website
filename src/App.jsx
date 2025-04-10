@@ -51,27 +51,14 @@ function App() {
         </p>
 
         <div className="max-w-md mx-auto">
-          <form className="relative group animate-fade-in-up delay-200" onSubmit={handleSubmit}>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Join the waitlist"
-              required
-              className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
-            />
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
-            >
-              {isSubmitting ? (
-                <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-              ) : (
-                <ArrowRightIcon className="h-6 w-6" />
-              )}
-            </button>
-          </form>
+          <a
+            href="https://t.me/+OYYtaiH9ex9kZDQ9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-6 py-3 bg-[rgb(8,79,170)] hover:bg-[rgb(7,71,153)] text-white rounded-lg transition-all duration-300 font-medium text-base shadow-lg hover:shadow-xl"
+          >
+            Join Beta Testers on Telegram
+          </a>
 
           {error && <p className="mt-4 text-red-500 animate-fade-in">{error}</p>}
           {isSuccess && (
