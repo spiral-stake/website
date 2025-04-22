@@ -2,9 +2,9 @@ import spiralImage from "../assets/01.svg";
 import cross from "../assets/close-circle-line.svg";
 import check from "../assets/checkbox-circle-line.svg";
 import DetailCard from "../components/DetailCard";
-import frame1 from "../assets/Frame.svg";
-import frame2 from "../assets/Frame2.svg";
-import frame3 from "../assets/Frame3.svg";
+import frame1 from "../assets/frame.svg";
+import frame2 from "../assets/frame2.svg";
+import frame3 from "../assets/frame3.svg";
 
 const AboutPage = () => {
   return (

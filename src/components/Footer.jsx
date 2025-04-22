@@ -1,7 +1,7 @@
 import logo from "../assets/logo.svg";
 import mail from "../assets/mail.svg";
 import call from "../assets/call.svg";
-import facebook from "../assets/Facebook.svg";
+import facebook from "../assets/facebook.svg";
 import twitter from "../assets/twitter.svg";
 import instagram from "../assets/instagram.svg";
 

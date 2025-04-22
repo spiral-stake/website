@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/Image.svg";
+import backgroundImage from "../assets/image.svg";
 import Button from "../components/Button";
 
 const HomePage = () => {
