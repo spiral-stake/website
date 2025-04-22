@@ -3,7 +3,7 @@ import Logo from "./assets/logo.svg";
 import "./App.css";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "./firebase";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import { Route, Router, Routes } from "react-router";
 import Home from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -37,19 +37,20 @@ function App() {
     }
   };
 
-  return (<div className="app font-['Outfit']">
-    <Navbar/>
-    <main className="pt-20 ">
-    {/* <Routes>
+  return (
+    <div className="app font-['Outfit']">
+      <Navbar />
+      <main className="pt-20 ">
+        {/* <Routes>
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="working" element={<Working/>}/>
     </Routes> */}
-    <Home/>
-    <AboutPage/>
-    <Working/>
-    </main>
-    <Footer/>
+        <Home />
+        <AboutPage />
+        <Working />
+      </main>
+      <Footer />
     </div>
   );
 }
