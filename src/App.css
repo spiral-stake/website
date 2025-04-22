@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+  min-height: 100vh;
+  background: linear-gradient(180deg, #01152a 1.93%, #03050d 28.18%);
+  color:white;
+}
+
+.gridComponents{
+  padding: 12px;
+  flex: auto;
+  justify-content: center;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:#084FAA;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-button{
+  background-color: black;
+}
+
+::-webkit-scrollbar-track-piece{
+  background-color: black;
+}
