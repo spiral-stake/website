@@ -9,12 +9,12 @@ import frame3 from "../assets/frame3.svg";
 const AboutPage = () => {
   return (
     <div>
-      <div id="AboutPage" className="flex flex-col gap-12 py-[120px] px-[64px]">
+      <div id="AboutPage" className="flex flex-col md:gap-12 md:py-[120px] md:px-[64px]">
         <div className="text-center font-semibold">
-          <p className="text-5xl">What is Spiral Stake?</p>
+          <p className="text-3xl md:text-5xl">What is Spiral Stake?</p>
         </div>
         <div className="flex gap-6">
-          <img src={spiralImage} alt="" className="w-[564px]" />
+          <img src={spiralImage} alt="" className="hidden md:flex md:w-[564px]" />
           <div className="flex flex-col gap-10 p-8 text-lg text-stone-300">
             <p>
               In today’s Web3 market, users must lock up tokens to earn yield or
@@ -34,10 +34,10 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-12 p-[64px]">
+      <div className="hidden md:flex flex-col items-center gap-12 md:p-[64px]">
         <div className="text-center space-y-3">
-          <p className="text-5xl font-semibold">Why choose Spiral Stake?</p>
-          <p className="text-sm text-gray-500">
+          <p className="text-3xl md:text-5xl font-semibold">Why choose Spiral Stake?</p>
+          <p className="text-md md:text-sm text-gray-500">
             Spiral Stake offers transparent, yield-generating liquidity access
             with low risk under one roof.
           </p>
@@ -123,9 +123,9 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-12 py-[80px] px-[64px]">
-        <p className="text-5xl font-semibold text-center">Who is it For?</p>
-        <div className="flex justify-center gap-5">
+      <div className="flex flex-col gap-12 py-[30px] md:py-[80px] px-[30px] md:px-[64px]">
+        <p className="text-3xl md:text-5xl font-semibold text-center">Who is it For?</p>
+        <div className="flex flex-col md:flex-row justify-center gap-5">
           <DetailCard
             img={frame1}
             msg={

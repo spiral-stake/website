@@ -8,7 +8,7 @@ import working3 from "../assets/working3.png"
 const WorkingTabs = () => {
   return (
     <div className="max-h-[400px] pr-5 max-w-5xl mx-auto space-y-24 overflow-y-scroll">
-      <div className="flex gap-6  w-full">
+      <div className="flex flex-col md:flex-row gap-6  w-full">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
             <p className="text-3xl">Joining Pool</p>
@@ -38,11 +38,11 @@ const WorkingTabs = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={working0} alt="" className="w-[700px]" />
+        <div className="flex justify-center">
+          <img src={working0} alt="" className=" w-[300px] md:w-[700px]" />
         </div>
       </div>
-      <div className="flex gap-6  max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
             <p className="text-3xl">Cycle Deposit</p>
@@ -74,11 +74,11 @@ const WorkingTabs = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={working1} alt="" className="w-[800px]" />
+        <div className="flex justify-center">
+          <img src={working1} alt="" className="w-[300px] md:w-[800px]" />
         </div>
       </div>
-      <div className="flex gap-6  max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
             <p className="text-3xl">Bidding for Liquidity</p>
@@ -123,11 +123,11 @@ const WorkingTabs = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={working2} alt="" className="w-[550px]" />
+        <div className="flex justify-center">
+          <img src={working2} alt="" className="w-[300px] md:w-[550px]" />
         </div>
       </div>
-      <div className="flex gap-6  max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
             <p className="text-3xl">Yeild Distribution</p>
@@ -167,8 +167,8 @@ const WorkingTabs = () => {
             </div>
           </div>
         </div>
-        <div>
-          <img src={working3} alt="" className="w-[750px]" />
+        <div className="flex justify-center">
+          <img src={working3} alt="" className="w-[300px] md:w-[750px]" />
         </div>
       </div>
     </div>
