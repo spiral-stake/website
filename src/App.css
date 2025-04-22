@@ -2,35 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.app{
+.app {
   min-height: 100vh;
   background: linear-gradient(180deg, #01152a 1.93%, #03050d 28.18%);
-  color:white;
+  color: white;
 }
 
-.gridComponents{
+.gridComponents {
   padding: 12px;
   flex: auto;
   justify-content: center;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: black;
 }
 
-::-webkit-scrollbar-thumb{
+/* ::-webkit-scrollbar-thumb{
   background-color:#084FAA;
   border-radius: 8px;
-}
+} */
 
-::-webkit-scrollbar-button{
+::-webkit-scrollbar-button {
   background-color: black;
 }
 
-::-webkit-scrollbar-track-piece{
+::-webkit-scrollbar-track-piece {
   background-color: black;
 }

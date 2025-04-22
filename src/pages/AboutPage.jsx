@@ -15,21 +15,17 @@ const AboutPage = () => {
         </div>
         <div className="flex gap-6">
           <img src={spiralImage} alt="" className="hidden md:flex md:w-[564px]" />
-          <div className="flex flex-col gap-10 p-8 text-lg text-stone-300">
+          <div className="flex flex-col gap-10 p-8 text-md md:text-lg text-stone-300">
             <p>
-              In today’s Web3 market, users must lock up tokens to earn yield or
-              keep them liquid to seize new opportunities, but not both. Spiral
-              Stake is a Web3 ROSCA-Type Lend & Borrow Protocol designed to
-              address this issue inspired by traditional saving circles like
-              chit funds but designed for decentralized finance.
+              Spiral Stake helps holders of staked stablecoins to free up liquidity without
+              foregoing protocol points & rewards. Spiral Stake facilitates this by creating a
+              rotating credit system with a fixed rate for borrowers while still offering variable
+              returns for lenders.
             </p>
             <p>
-              It brings the power of Rotating Savings and Credit Associations
-              (ROSCAs) to the blockchain. Here, users can leverage Rotating
-              Credit Pools backed by yield-bearing tokens, enabling them to
-              borrow capital without sacrificing yield. It’s a simple,
-              capital-efficient solution for accessing liquidity while your
-              assets continue earning.
+              Spiral Stake is built on a novel capital management instrument called ROSCA (Rotating
+              Savings and Credit Association). Where users deposit their staked stablecoins to
+              access pooled liquidity without sacrificing the yield and protocol rewards.
             </p>
           </div>
         </div>
@@ -48,52 +44,13 @@ const AboutPage = () => {
             Feature
           </p>
           <p className="px-[24px] py-[20px] text-gray-500 flex justify-center  border-r-[1px] border-gray-600">
-            Tranditional Lending
+            Spiral Stake
           </p>
           <p className="px-[24px] py-[20px] text-gray-500 flex justify-center  border-r-[1px] border-gray-600">
-            Liquidity Staking
+            Aave
           </p>
           <p className="px-[24px] py-[20px] text-gray-500 flex justify-center   border-gray-600">
-            Spiral stake
-          </p>
-          {/* */}
-          <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
-            Capital Efficiency
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            <img src={cross} alt="" />
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            <img src={check} alt="" />
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
-            <img src={check} alt="" />
-          </p>
-          {/* */}
-          <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
-            Maintains yeild explosure
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            <img src={cross} alt="" />
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            <img src={check} alt="" />
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
-            <img src={check} alt="" />
-          </p>
-          {/* */}
-          <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
-            Fixed borrowing rates
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            <img src={cross} alt="" />
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
-            N/A
-          </p>
-          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
-            <img src={check} alt="" />
+            Morpho
           </p>
           {/* */}
           <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
@@ -110,20 +67,46 @@ const AboutPage = () => {
           </p>
           {/* */}
           <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
-            Community Powered Rates
+            Borrow Rate
+          </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
+            Fixed
+          </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
+            Unpredictable
+          </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
+            Unpredictable
+          </p>
+          {/* */}
+          <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
+            Supports Major YBTs
+          </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
+            <img src={check} alt="" />
           </p>
           <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
             <img src={cross} alt="" />
           </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
+            <img src={cross} alt="" />
+          </p>
+          {/* */}
+          <p className="px-[24px] py-[20px] text-neutral-300 border-t-[1px] border-r-[1px] border-gray-600">
+            Covers Protocol Points
+          </p>
           <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
             <img src={check} alt="" />
           </p>
+          <p className="px-[24px] py-[20px] flex justify-center border-t-[1px] border-r-[1px] border-gray-600">
+            <img src={cross} alt="" />
+          </p>
           <p className="px-[24px] py-[20px] flex justify-center border-t-[1px]  border-gray-600">
-            <img src={check} alt="" />
+            <img src={cross} alt="" />
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-12 py-[30px] md:py-[80px] px-[30px] md:px-[64px]">
+      {/* <div className="flex flex-col gap-12 py-[30px] md:py-[80px] px-[30px] md:px-[64px]">
         <p className="text-3xl md:text-5xl font-semibold text-center">Who is it For?</p>
         <div className="flex flex-col md:flex-row justify-center gap-5">
           <DetailCard
@@ -142,13 +125,11 @@ const AboutPage = () => {
           />
           <DetailCard
             img={frame3}
-            msg={
-              "Web3 Savers who want group savings with yield and low-risk liquidity access"
-            }
+            msg={"Web3 Savers who want group savings with yield and low-risk liquidity access"}
             title={"Web3 Savers"}
           />
         </div>
-      </div>
+      </div>  */}
     </div>
   );
 };
