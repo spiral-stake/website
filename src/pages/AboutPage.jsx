@@ -9,7 +9,7 @@ import frame3 from "../assets/frame3.svg";
 const AboutPage = () => {
   return (
     <div>
-      <div className="flex flex-col gap-12 py-[120px] px-[64px]">
+      <div id="AboutPage" className="flex flex-col gap-12 py-[120px] px-[64px]">
         <div className="text-center font-semibold">
           <p className="text-5xl">What is Spiral Stake?</p>
         </div>

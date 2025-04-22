@@ -12,35 +12,25 @@ const Navbar = () => {
           <p className="text-xl font-semibold">Spiral stake</p>
         </div>
         <div className="flex gap-8">
-          <p
-            onClick={() => {
-              navigate("/home");
-            }}
-            className="cursor-pointer"
-          >
-            Home
-          </p>
-          <p
-            onClick={() => {
-              navigate("/about");
-            }}
-            className="cursor-pointer"
-          >
-            About us
-          </p>
-          <p
-            onClick={() => {
-              navigate("working");
-            }}
-            className="cursor-pointer"
-          >
-            How it work's
-          </p>
+          <a href="#Home">
+            <p className="cursor-pointer">Home</p>
+          </a>
+          <a href="#AboutPage">
+            <p className="cursor-pointer">About us</p>
+          </a>
+          <a href="#Working">
+            <p className="cursor-pointer">How it work's</p>
+          </a>
           <p className="cursor-pointer">Blogs</p>
         </div>
       </div>
-      <div className="w-full text-end">
-        <Button text={"connect"} />
+      <div
+        className="w-full text-end"
+        onClick={() => {
+          window.location.href = "https://app.spiralstake.xyz";
+        }}
+      >
+        <Button text={"Launch App"} />
       </div>
     </div>
   );

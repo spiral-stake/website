@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const HomePage = () => {
   return (
-    <div className="max-w-4xl mx-auto flex flex-col justify-center items-center py-20 gap-10">
+    <div id="Home" className="max-w-4xl mx-auto flex flex-col justify-center items-center py-20 gap-10">
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex flex-col text-center text-5xl font-semibold">
           <p>Stake,Bid, and Earn</p>
