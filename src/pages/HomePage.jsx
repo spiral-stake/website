@@ -24,7 +24,7 @@ const HomePage = () => {
           <Button text={"Join Pool"} />
         </div>
       </div>
-      <div className="px-4 mb-6 md:px-0">
+      <div className="px-4 mb-16 md:px-0">
         <img src={backgroundImage} alt="" />
       </div>
     </div>

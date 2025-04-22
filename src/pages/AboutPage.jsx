@@ -9,7 +9,7 @@ import frame3 from "../assets/frame3.svg";
 const AboutPage = () => {
   return (
     <div>
-      <div id="AboutPage" className="flex flex-col md:gap-12 md:py-[120px] md:px-[64px]">
+      <div id="AboutPage" className="flex flex-col md:gap-12 md:px-[64px]">
         <div className="text-center font-semibold">
           <p className="text-3xl md:text-5xl">What is Spiral Stake?</p>
         </div>
@@ -30,7 +30,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:flex flex-col items-center gap-12 md:p-[64px]">
+      <div className="hidden md:flex flex-col md:mt-24 items-center gap-12 md:p-[64px]">
         <div className="text-center space-y-3">
           <p className="text-3xl md:text-5xl font-semibold">Why choose Spiral Stake?</p>
           <p className="text-md md:text-sm text-gray-500">

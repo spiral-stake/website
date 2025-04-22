@@ -9,9 +9,9 @@ const WorkingTabs = () => {
   return (
     <div className="max-h-[400px] pr-5 max-w-5xl mx-auto space-y-24 overflow-y-scroll">
       <div className="flex flex-col md:flex-row gap-6  w-full">
-        <div className="flex flex-col gap-6 p-[24px] pt-10">
+        <div className="flex flex-col gap-6 px-[24px] md:p-[24px] md:pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-3xl">Joining Pool</p>
+            <p className="text-xl md:text-3xl">Joining Pool</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
@@ -45,7 +45,7 @@ const WorkingTabs = () => {
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-3xl">Cycle Deposit</p>
+            <p className="text-xl md:text-3xl">Cycle Deposit</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
@@ -81,7 +81,7 @@ const WorkingTabs = () => {
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-3xl">Bidding for Liquidity</p>
+            <p className="text-xl md:text-3xl">Bidding for Liquidity</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
@@ -130,7 +130,7 @@ const WorkingTabs = () => {
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-3xl">Yeild Distribution</p>
+            <p className="text-xl md:text-3xl">Yeild Distribution</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 items-center">
