@@ -1,5 +1,5 @@
-import backgroundImage from "../assets/Image.svg"
-import Button from "../components/button";
+import backgroundImage from "../assets/Image.svg";
+import Button from "../components/Button";
 
 const HomePage = () => {
   return (
@@ -14,9 +14,11 @@ const HomePage = () => {
           from yield-bearing tokens while retaining their yield, merging group
           savings with efficient borrowing.
         </p>
-        <Button text={"Join pool"}/>
+        <Button text={"Join pool"} />
       </div>
-      <div><img src={backgroundImage} alt="" /></div>
+      <div>
+        <img src={backgroundImage} alt="" />
+      </div>
     </div>
   );
 };

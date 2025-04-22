@@ -1,6 +1,5 @@
 import join from "../assets/join.svg";
 import check from "../assets/checkbox-circle-line.svg";
-import "./WorkingTabs.css";
 
 const WorkingTabs = () => {
   return (
