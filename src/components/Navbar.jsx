@@ -19,7 +19,7 @@ const Navbar = () => {
             <p className="cursor-pointer">About us</p>
           </a>
           <a href="#Working">
-            <p className="cursor-pointer">How it work's</p>
+            <p className="cursor-pointer">How it works</p>
           </a>
         </div>
       </div>

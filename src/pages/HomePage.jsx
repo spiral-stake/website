@@ -12,7 +12,7 @@ const HomePage = () => {
           <p>Liquid Stablecoins, Intact Rewards</p>
         </div>
         <p className="text-center text-sm md:text-md  mb-2 md:mb-6 text-gray-400 px-3 md:px-16">
-          Stable coin liquidity market with fixed borrowing APR.
+          Stablecoin liquidity market with fixed borrowing APR.
         </p>
 
         <div
