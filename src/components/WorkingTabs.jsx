@@ -7,164 +7,70 @@ import working3 from "../assets/working3.png";
 
 const WorkingTabs = () => {
   return (
-    <div className="max-h-[400px] pr-5 max-w-5xl mx-auto space-y-24 overflow-y-scroll">
+    <div className=" pr-5 max-w-5xl mx-auto overflow-y-scroll">
       <div className="flex flex-col md:flex-row gap-6  w-full">
         <div className="flex flex-col gap-6 px-[24px] md:p-[24px] md:pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-xl md:text-3xl">Joining Pool</p>
+            <p className="text-xl md:text-3xl">1. Deposit Staked Stablecoins</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
               <p>
-                To participate, you must deposit the Staked Stablecoin as collateral (such as
-                sfrxUSD, sUSDe, StScUSD ).
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                This staked stablecoin collateral serves as security against potential malicious
-                behavior.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                You can either join an existing pool that matches your collateral preferences or
-                create a new pool based on your specific requirements for cycles and collateral
-                amount.
+                Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked stablecoins as collateral
+                while they continue earning staking rewards.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <img src={working0} alt="" className=" w-[300px] md:w-[700px]" />
-        </div>
+        <div className="flex justify-center"></div>
       </div>
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-xl md:text-3xl">Cycle Deposit</p>
+            <p className="text-xl md:text-3xl">2. Choose Your Borrowing Method</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
               <p>
-                Each cycle requires you to deposit a fixed amount of the base token (for example,
-                frxUSD if you're using sfrxUSD as collateral).
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                You must make this deposit during the designated deposit window, which opens at the
-                beginning of each cycle.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                It's important to make your cycle deposit on time for each cycle. When you do, a
-                portion of your collateral is released back to you. If you miss a deposit, you'll
-                forfeit that portion of your collateral.
+                Set your own rate through daily auctions for competitive pricing, or access instant
+                liquidity at market rates.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <img src={working1} alt="" className="w-[300px] md:w-[800px]" />
-        </div>
+        <div className="flex justify-center"></div>
       </div>
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-xl md:text-3xl">Bidding for Liquidity</p>
+            <p className="text-xl md:text-3xl">3. Receive SPIUSD</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
             <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
               <p>
-                During the bid window, participants compete for pooled liquidity by stating how much
-                of that liquidity they're willing to give up (forgo).
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                To increase your chances of winning, bid a higher borrow APR than other participants
-                in the pool—the algorithm favors higher bids.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                You can only bid until you win once. If you win liquidity in any cycle, you cannot
-                bid in future cycles.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                The portion of liquidity you agree to forgo is distributed to other participants as
-                "Spiral Yield."
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                If you remain in the pool until the final round without winning, you'll
-                automatically receive the remaining liquidity by default.
+                Get our fully collateralized stablecoin that maintains its $1 peg through robust
+                arbitrage mechanisms.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <img src={working2} alt="" className="w-[300px] md:w-[550px]" />
-        </div>
+        <div className="flex justify-center"></div>
       </div>
       <div className="flex flex-col md:flex-row gap-6  max-w-5xl mx-auto">
         <div className="flex flex-col gap-6 p-[24px] pt-10">
           <div className="flex flex-col gap-3">
-            <p className="text-xl md:text-3xl">Yeild Distribution</p>
+            <p className="text-xl md:text-3xl">4. Loop & Amplify</p>
           </div>
           <div className="text-white/60 flex flex-col gap-1">
-            <div className="flex gap-4 items-center">
-              <img src={check} alt="" />
-              <div>
-                <p>Spiral stake generates yield in two distinct ways: Yield</p>
-                <p>1. Collateral</p>
-                <p>2. Spiral Yield.</p>
-              </div>
-            </div>
             <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
               <p>
-                Collateral Yield comes from your deposited Yield-Bearing Tokens (YBTs) in the Spiral
-                pool, plus any additional incentives from Points programs. This yield is claimable
-                in real-time.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                Spiral Yield is generated on your cycle deposits and represents your share of the
-                liquidity that winning bidders agreed to forgo.
-              </p>
-            </div>
-            <div className="flex gap-4 justify-center items-center">
-              <img src={check} alt="" />
-              <p>
-                It's recommended to claim your Spiral Yield at the end of each cycle, though you
-                have the option to claim it later. For optimal returns, you should regularly claim
-                your YBT yield as well.
+                Reinvest to increase your staked position, participate in other protocols, or simply
+                hold liquid capital while earning staking rewards.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex justify-center">
-          <img src={working3} alt="" className="w-[300px] md:w-[750px]" />
-        </div>
+        <div className="flex justify-center"></div>
       </div>
     </div>
   );
