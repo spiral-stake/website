@@ -1,35 +1,47 @@
 import logo from "../assets/logo.svg";
-import { useNavigate } from "react-router";
+import listIcon from "../assets/List.svg";
 import Button from "./Button";
+import { useState } from "react";
+import MenuList from "./MenuList";
 
 const Navbar = () => {
-  const navigate = useNavigate();
+  const [showList, setShowList] = useState(false);
+
   return (
-    <div className="w-full flex justify-between px-5 md:px-10 py-3 border-b-[1px] border-gray-800">
-      <div className="w-full flex justify-between items-center">
-        <div className="flex items-center gap-2">
-          <img src={logo} alt="" className="w-8" />
-          <p className="hidden md:flex text-xl font-semibold">Spiral stake</p>
-        </div>
-        <div className="hidden md:flex gap-8">
-          <a href="#Home">
-            <p className="cursor-pointer">Home</p>
-          </a>
-          <a href="#AboutPage">
-            <p className="cursor-pointer">About us</p>
-          </a>
-          <a href="#Working">
-            <p className="cursor-pointer">How it works</p>
-          </a>
-        </div>
+    <div
+      className={`w-full flex justify-between items-center py-5 px-5 md:px-24  ${
+        showList ? "fixed top-0 md:absolute z-20 bg-black" : "absolute"
+      }`}
+    >
+      <div className="flex items-center gap-2">
+        <img src={logo} alt="" className="w-8 md:w-10" />
       </div>
+      <div className=" hidden md:flex gap-8">
+        <a href="#Home">
+          <p className="cursor-pointer">Home</p>
+        </a>
+        <a href="#AboutPage">
+          <p className="cursor-pointer text-gray-400">About us</p>
+        </a>
+        <a href="#Working">
+          <p className="cursor-pointer text-gray-400">How it works</p>
+        </a>
+      </div>
+
       <div
-        className="w-full text-end"
+        className="text-end hidden md:flex"
         onClick={() => {
           window.location.href = "https://app.spiralstake.xyz";
         }}
       >
-        <Button text={"Launch App"} />
+        <Button fill={false} text={"Launch App"} />
+      </div>
+      <div
+        className="w-full flex justify-end md:hidden"
+        onClick={() => setShowList(!showList)}
+      >
+        <img src={listIcon} alt="" />
+        {showList && <MenuList />}
       </div>
     </div>
   );

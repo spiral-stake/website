@@ -4,8 +4,37 @@
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(180deg, #01152a 1.93%, #03050d 28.18%);
   color: white;
+  background: #000;
+}
+
+.bgimg{
+  background-image: url("./assets/newbg.png");
+  background-size: cover;
+  background-position: 20%;
+}
+
+.globe{
+   background-image: url("./assets/Globe.svg");
+}
+
+.loop{
+  background-image: url("./assets/stayLoop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* .animate{
+  
+} */
+
+@media screen and (max-width: 375px) {
+  .bgimg{
+  background-image: url("./assets/newbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left 60% ;
+}
 }
 
 .gridComponents {

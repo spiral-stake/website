@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="app font-['Outfit']">
       <Navbar />
-      <main className="pt-20 ">
+      <main>
         {/* <Routes>
       <Route path="/home" element={<Home/>}/>
       <Route path="/about" element={<AboutPage/>}/>

@@ -9,7 +9,7 @@ import xlogo from "../assets/xlogo.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-black flex flex-col gap-12 border-t-[1px] border-gray-600 p-[20px] md:p-[80px] pb-0  md:pb-0">
+    <div className="bg-black flex flex-col gap-12 p-[20px] md:p-[80px] pb-0  md:pb-0">
       <div className="flex md:pl-10 gap-[24px] text-sm text-gray-600">
         <div className=" w-[411px] flex flex-col gap-[20px] pr-[32px]">
           <div className="flex items-center gap-3">
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between md:px-10 py-[16px] md:py-[32px] border-t-[1px] border-gray-600">
+      <div className="flex items-center justify-between md:px-10 py-[16px] md:py-[32px]">
         <div className="text-xs md:text-md md:w-[411px]">
           <p>Copyright © 2025, Spiral Stake</p>
         </div>
