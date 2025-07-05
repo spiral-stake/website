@@ -1,7 +1,7 @@
 const InfoCard = ({ symbol, title, info, colorfull }) => {
   return (
     <div
-      className={`flex flex-col gap-[62px] p-[24px] w-[548px] rounded-[24px] border-[1px] border-gray-800 ${
+      className={`flex flex-col gap-[62px] p-[24px] max-w-[548px] rounded-[24px] border-[1px] border-gray-800 ${
         colorfull ? "bgimg" : "bg-white bg-opacity-5"
       }`}
     >

@@ -18,6 +18,13 @@
    background-image: url("./assets/Globe.svg");
 }
 
+.globe_mobile{
+  background-image: url("./assets/GlobeMobile.png");
+  background-size: contain;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
 .loop{
   background-image: url("./assets/stayLoop.svg");
   background-repeat: no-repeat;
