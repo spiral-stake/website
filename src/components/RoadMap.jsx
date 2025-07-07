@@ -9,7 +9,7 @@ const RoadMap = () => {
         <p className="text-[32px] lg:text-[40px] font-[600] text-center">
           Spiral Stake Roadmap
         </p>
-        <p className=" text-center text-[12px] lg:text-[16px] font-[400] text-gray-500">
+        <p className=" text-center text-[14px] lg:text-[16px] font-[400] text-gray-500">
           Track our progress as we roll out new features, integrations, and
           protocol upgrades.
         </p>

@@ -7,18 +7,13 @@ import frame2 from "../assets/frame2.svg";
 import frame3 from "../assets/frame3.svg";
 import DotName from "../components/DotName";
 import InfoTemplate from "../components/InfoTemplate";
-import InfoCard from "../components/InfoCard";
-import growth from "../assets/Growth.svg";
-import balance from "../assets/balance.svg";
-import coins from "../assets/coins.svg";
-import option from "../assets/option.svg";
+
 import Button from "../components/Button";
 import globe from "../assets/Globe.svg";
-import logoSmall from "../assets/logoSmall.svg";
-import dao from "../assets/dao.svg";
-import ethena from "../assets/ethena.svg";
-import CheckCircle from "../assets/CheckCircle.svg";
-import XCircle from "../assets/XCircle.svg";
+
+import MaxYield from "../components/MaxYield";
+import WhyChoose from "../components/WhyChoose";
+import StandsApart from "../components/StandsApart";
 
 const AboutPage = () => {
   return (
@@ -29,7 +24,7 @@ const AboutPage = () => {
             <p className="text-[32px] lg:text-[50px] font-[500]">
               What is Spiral Stake?
             </p>
-            <p className="hidden lg:flex text-[20px] font-[400] text-gray-400">
+            <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
               Spiral Stake is a specialized money market protocol designed
               exclusively for staked stablecoin holders. It solves a fundamental
               DeFi challenge: allowing users to maintain their staking rewards
@@ -39,7 +34,13 @@ const AboutPage = () => {
               The protocol enables users to maximize yields on staked
               stablecoins without sacrificing capital accessibility.
             </p>
-            <div className="hidden lg:flex pt-4">
+            <div
+              className="hidden lg:flex pt-4"
+              onClick={() => {
+                window.location.href =
+                  "https://spiral-stake.gitbook.io/spiral-stake-docs";
+              }}
+            >
               <Button fill={false} text={"Read Documentation"} />
             </div>
           </div>
@@ -101,150 +102,19 @@ const AboutPage = () => {
               users access liquidity while still earning staking
               rewards—maximizing yield without giving up capital access.
             </p>
-            <Button fill={false} text={"Read Documentation"} />
-          </div>
-        </div>
-
-        <div className="pt-[64px] lg:pb-[120px] px-[16px] lg:px-20 flex flex-col gap-[48px] items-center justify-center">
-          <div className="w-full lg:max-w-[480px] flex flex-col gap-1 justify-center items-center">
-            <p className="px-10 text-[32px] lg:text-[40px] font-[600] text-center">
-              Why choose Spiral Stake?
-            </p>
-            <p className=" text-center text-[12px] lg:text-[16px] font-[400] text-gray-500">
-              SpiralStake provides secure, transparent access to yield-bearing
-              liquidity—all in one unified platform.
-            </p>
-          </div>
-          <div className="flex flex-col lg:grid grid-cols-2 grid-rows-2 gap-[16px] lg:gap-6">
-            <InfoCard
-              colorfull={true}
-              symbol={growth}
-              info={
-                "Set your own borrowing costs through competitive auctions, giving you unprecedented control over your capital expenses."
-              }
-            />
-            <InfoCard
-              colorfull={false}
-              symbol={coins}
-              info={
-                "Maintain your staking rewards while accessing capital to deploy in other yield-generating strategies across DeFi."
-              }
-              title={"Leveraged Yields"}
-            />
-            <InfoCard
-              colorfull={false}
-              info={
-                "Choose between instant borrowing or auction-based rates. Access liquidity on your terms, whenever you need it."
-              }
-              title={"Flexible Access Options"}
-              symbol={option}
-            />
-            <InfoCard
-              colorfull={false}
-              info={
-                "SPIUSD stays pegged via a robust Peg Stability Module and automated arbitrage."
-              }
-              symbol={balance}
-              title={"Robust Price Stability"}
-            />
-          </div>
-        </div>
-        <div className="w-full bg-[radial-gradient(closest-side,_#1E1831,_#090026,_#000000)] py-[120px] px-2 lg:px-[80px] flex flex-col gap-[48px] items-center justify-center ]">
-          <div className="w-full lg:max-w-[560px] flex flex-col justify-center items-center">
-            <p className="text-[32px] lg:text-[40px] font-[600] text-center">
-              How Spiral Stake Stands Apart
-            </p>
-            <p className=" text-center text-[12px] lg:text-[16px] font-[400] text-gray-500">
-              See how Spiral Stake compares to top DeFi protocols in yield,
-              liquidity, and borrowing flexibility.
-            </p>
-          </div>
-          <div className="w-full lg:w-fit grid grid-cols-[34%,22%,22%,22%] lg:grid-cols-[301px,194px,194px,194px]  grid-rows-6 p-[24px] border-[1px] border-gray-700 rounded-[20px]">
-            <div className="text-[16px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2 border-b border-b-gray-600">
-              Feature
-            </div>
-            <div className="flex justify-center items-center gap-2 py-4 px-2 bg-gray-400 bg-opacity-5 rounded-t-[5px] border-b border-b-gray-600">
-              <img src={logoSmall} alt="" />{" "}
-              <p className="hidden lg:flex text-[20px] font-[400] ">
-                Spiral Stake
-              </p>
-            </div>
-            <div className="flex justify-center items-center gap-2 py-4 px-2 border-b border-b-gray-600">
-              <img src={dao} alt="" />{" "}
-              <p className="hidden lg:flex text-[20px] font-[400]">MarkerDao</p>
-            </div>
-            <div className="flex justify-center items-center gap-2 py-4 px-2 border-b border-b-gray-600">
-              <img src={ethena} alt="" />{" "}
-              <p className="hidden lg:flex text-[20px] font-[400]">Ethena</p>
-            </div>
-            <div className="text-[12px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2 border-b border-b-gray-800">
-              Staked Stablecoin Collateral
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center bg-gray-400 bg-opacity-5">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={XCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="text-[12px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2 border-b-[1px] border-b-gray-800">
-              Yield While Collateralized
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center bg-gray-400 bg-opacity-5">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={XCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="text-[12px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2 border-b-[1px] border-b-gray-800">
-              Borrowing Flexibility
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center bg-gray-400 bg-opacity-5">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={XCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <img src={XCircle} alt="" />
-            </div>
-            <div className="text-[12px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2 border-b-[1px] border-b-gray-800 ">
-              Leverage & Looping
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center bg-gray-400 bg-opacity-5">
-              <p className="text-[12px] lg:text-[18px] font-[400] text-gray-400">
-                Native Lopping
-              </p>
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <p className="text-[12px] lg:text-[18px] font-[400] text-gray-400">
-                Manual
-              </p>
-            </div>
-            <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
-              <p className="text-[12px] lg:text-[18px] font-[400] text-gray-400">
-                Not Supported
-              </p>
-            </div>
-            <div className="text-[12px] lg:text-[20px] font-[400] text-gray-400 py-4 px-2">
-              Peg Stability Module (PSM)
-            </div>
-            <div className="py-4 px-2 flex justify-center items-center bg-gray-400 bg-opacity-5 rounded-b-[5px]">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 flex justify-center items-center">
-              <img src={CheckCircle} alt="" />
-            </div>
-            <div className="py-4 px-2 flex justify-center items-center">
-              <img src={XCircle} alt="" />
+            <div
+              onClick={() => {
+                window.location.href =
+                  "https://spiral-stake.gitbook.io/spiral-stake-docs";
+              }}
+            >
+              <Button fill={false} text={"Read Documentation"} />
             </div>
           </div>
         </div>
+        <WhyChoose />
+        <MaxYield />
+        <StandsApart />
       </div>
     </div>
   );

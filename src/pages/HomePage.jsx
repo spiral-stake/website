@@ -32,7 +32,10 @@ const HomePage = () => {
             <Button fill={true} text={"Launch app"} />
           </div>
           <div onClick={() => (window.location.href = "#Working")}>
-            <Button fill={false} text={"Learn how it works"} />
+            <Button
+              fill={false}
+              text={"Learn how it works"}
+            />
           </div>
         </div>
       </div>
