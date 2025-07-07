@@ -16,7 +16,7 @@ import RoadMap from "../components/RoadMap";
 const Working = () => {
   return (
     <div id="Working">
-      <div className="px-6 lg:px-0 flex flex-col gap-10 lg:gap-20 py-16 lg:py-[40px]">
+      <div className="px-6 lg:px-0 flex flex-col gap-10 lg:gap-20 pt-[20px] pb-16 lg:py-[40px]">
         <div className="text-center space-y-2 lg:hidden">
           <p className="text-[32px] lg:text-[40px] lg:text-5xl font-[600]">
             How does Spiral Stake work?
@@ -67,8 +67,8 @@ const Working = () => {
       <div>
         <RoadMap/>
       </div>
-      <div className=" w-full h-[800px] loop relative">
-        <div className="absolute w-full flex justify-center items-center top-10">
+      <div className=" w-full h-[650px] mt-[24px] lg:h-[800px] loop relative">
+        <div className="absolute w-full flex justify-center items-center top-0 lg:top-10">
           <Email />
         </div>
       </div>

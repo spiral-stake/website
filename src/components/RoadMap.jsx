@@ -4,7 +4,7 @@ import roadMapMobile from "../assets/roadMapMobile.svg";
 
 const RoadMap = () => {
   return (
-    <div className="flex flex-col px-[12px] gap-[48px] items-center bg-[radial-gradient(closest-side,_#1E1831,_#090026,_#000000)]">
+    <div className="flex flex-col px-[12px] pt-[24px] gap-[48px] items-center bg-[radial-gradient(closest-side,_#1E1831,_#090026,_#000000)]">
       <div className="w-full lg:max-w-[560px] flex flex-col justify-center items-center">
         <p className="text-[32px] lg:text-[40px] font-[600] text-center">
           Spiral Stake Roadmap

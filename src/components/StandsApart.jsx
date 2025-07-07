@@ -6,7 +6,7 @@ import XCircle from "../assets/XCircle.svg";
 
 const StandsApart = () => {
   return (
-    <div className="w-full bg-[radial-gradient(closest-side,_#1E1831,_#090026,_#000000)] py-[120px] px-2 lg:px-[80px] flex flex-col gap-[48px] items-center justify-center ]">
+    <div className="w-full bg-[radial-gradient(closest-side,_#1E1831,_#090026,_#000000)] pt-[60px] pb-[120px] px-2 lg:px-[80px] flex flex-col gap-[48px] items-center justify-center ]">
       <div className="w-full lg:max-w-[560px] flex flex-col justify-center items-center">
         <p className="text-[32px] lg:text-[40px] font-[600] text-center">
           How Spiral Stake Stands Apart

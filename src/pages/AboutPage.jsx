@@ -74,7 +74,7 @@ const AboutPage = () => {
           </div>
         </div>
         {/* for mobile */}
-        <div className="lg:hidden relative py-4 px-4 w-full flex flex-col gap-24 h-fit globe_mobile">
+        <div className="lg:hidden relative pt-[64px] pb-4 px-4 w-full flex flex-col gap-24 h-fit globe_mobile">
           <p className="text-[40px] font-[500]">
             What is <br />
             Spiral Stake?
@@ -96,8 +96,8 @@ const AboutPage = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-4">
-            <p className="mt-10 text-[14px] font-[400] text-gray-500">
+          <div className="h-[50px] flex flex-col gap-4">
+            {/* <p className="mt-10 text-[14px] font-[400] text-gray-500">
               Spiral Stake is a money market for staked stablecoins, letting
               users access liquidity while still earning staking
               rewards—maximizing yield without giving up capital access.
@@ -109,7 +109,7 @@ const AboutPage = () => {
               }}
             >
               <Button fill={false} text={"Read Documentation"} />
-            </div>
+            </div> */}
           </div>
         </div>
         <WhyChoose />

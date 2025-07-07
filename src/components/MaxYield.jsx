@@ -6,7 +6,7 @@ import deposit from "../assets/deposit.svg";
 
 const MaxYield = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-[56px] px-[16px] py-[64px] lg:px-[80px] lg:py-[120px]">
+    <div className="flex flex-col justify-center items-center gap-[56px] px-[16px] pt-[120px] pb-[64px] lg:px-[80px] lg:py-[120px]">
       <div className="w-full lg:max-w-[580px] flex flex-col justify-center items-center">
         <p className="text-[32px] lg:text-[40px] font-[600] text-center">
           Maximize Yield in 3 Simple Steps
