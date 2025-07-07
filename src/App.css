@@ -8,53 +8,53 @@
   background: #000;
 }
 
-.bgimg{
-  background-image: url("./assets/newbg.png");
+.bgimg {
+  background-image: url("./assets/newbg.svg");
   background-size: cover;
   background-position: 20%;
 }
 
-.globe{
-   background-image: url("./assets/Globe.svg");
+.globe {
+  background-image: url("./assets/Globe.svg");
 }
 
-.globe_mobile{
+.globe_mobile {
   background-image: url("./assets/GlobeMobile.png");
   background-size: contain;
   background-position: 100%;
   background-repeat: no-repeat;
 }
 
-.loop{
+.loop {
   background-image: url("./assets/stayLoop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.transitions{
+.transitions {
   animation-duration: 0.7s;
   animation-name: animate-item;
-} 
+}
 
-@keyframes animate-item{
+@keyframes animate-item {
   0% {
     transform: translateY(200px);
   }
   100% {
-    transform:translateY();
+    transform: translateY();
   }
 }
 
-.img_animation{
+.img_animation {
   animation-duration: 0.7s;
   animation-name: animate-img;
 }
 
-@keyframes animate-img{
-  0%{
-    transform: translateY(540px) ;
+@keyframes animate-img {
+  0% {
+    transform: translateY(540px);
   }
-  100%{
+  100% {
     transform: translateY();
   }
 }
@@ -78,19 +78,19 @@
 } */
 
 @media screen and (max-width: 768px) {
-  .bgimg{
-  background-image: url("./assets/newbg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom left 60% ;
-}
+  .bgimg {
+    background-image: url("./assets/newbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left 60%;
+  }
 
-.loop{
-  background-image: url("./assets/stayLoop.svg");
-  background-repeat: no-repeat;
-  background-size: 200vw;
-  background-position:center;
-}
+  .loop {
+    background-image: url("./assets/stayLoop.svg");
+    background-repeat: no-repeat;
+    background-size: 200vw;
+    background-position: center;
+  }
 }
 
 .gridComponents {

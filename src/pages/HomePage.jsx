@@ -1,5 +1,5 @@
 import backgroundImage from "../assets/hero.svg";
-import bg from "../assets/newbg.png";
+import bg from "../assets/newbg.svg";
 import Lpool from "../assets/LiquidityPool.png";
 import LpoolMobile from "../assets/LpoolMobile.png";
 import Button from "../components/Button";
@@ -32,10 +32,7 @@ const HomePage = () => {
             <Button fill={true} text={"Launch app"} />
           </div>
           <div onClick={() => (window.location.href = "#Working")}>
-            <Button
-              fill={false}
-              text={"Learn how it works"}
-            />
+            <Button fill={false} text={"Learn how it works"} />
           </div>
         </div>
       </div>
