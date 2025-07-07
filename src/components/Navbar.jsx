@@ -9,14 +9,14 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full flex justify-between items-center py-5 px-5 md:px-24  ${
-        showList ? "fixed top-0 md:absolute z-20 bg-black" : "absolute"
+      className={`w-full flex justify-between items-center py-5 px-5 lg:px-24  ${
+        showList ? "fixed top-0 lg:absolute z-20 bg-black" : "absolute"
       }`}
     >
       <div className="flex items-center gap-2">
-        <img src={logo} alt="" className="w-8 md:w-10" />
+        <img src={logo} alt="" className="w-8 lg:w-10" />
       </div>
-      <div className=" hidden md:flex gap-8">
+      <div className=" hidden lg:flex gap-8">
         <a href="#Home">
           <p className="cursor-pointer">Home</p>
         </a>
@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className="text-end hidden md:flex"
+        className="text-end hidden lg:flex"
         onClick={() => {
           window.location.href = "https://app.spiralstake.xyz";
         }}
@@ -37,7 +37,7 @@ const Navbar = () => {
         <Button fill={false} text={"Launch App"} />
       </div>
       <div
-        className="w-full flex justify-end md:hidden"
+        className="w-full flex justify-end lg:hidden"
         onClick={() => setShowList(!showList)}
       >
         <img src={listIcon} alt="" />

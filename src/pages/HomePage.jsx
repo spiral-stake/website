@@ -1,42 +1,45 @@
 import backgroundImage from "../assets/hero.svg";
 import bg from "../assets/newbg.png";
-import Lpool from "../assets/LiquidityPool.png"
-import LpoolMobile from "../assets/LpoolMobile.png"
+import Lpool from "../assets/LiquidityPool.png";
+import LpoolMobile from "../assets/LpoolMobile.png";
 import Button from "../components/Button";
 
 const HomePage = () => {
   return (
     <div
       id="Home"
-      className="w-full h-fit md:h-[100vh] mx-auto flex flex-col items-center pt-24 md:pt-20 justify-between  bgimg"
+      className="w-full h-fit lg:h-[100vh] mx-auto flex flex-col items-center pt-24 lg:pt-20 justify-between  bgimg"
     >
       <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
-        <div className="flex flex-col px-6 md:px-0 text-center text-3xl md:text-5xl">
-          <p>Your Staked Stablecoins,<br/> Supercharged</p>
+        <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
+          <p>
+            Your Staked Stablecoins,
+            <br /> Supercharged
+          </p>
         </div>
-        <p className="text-center text-sm md:text-md  text-gray-400 px-3 md:px-[60px]">
+        <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[60px]">
           The first money market designed exclusively for staked stablecoin
           holders. Maximize yields while preserving access to capital.
         </p>
 
         <div className="flex flex-row gap-4">
           <div
-          className=""
-          onClick={() => {
-            window.location.href = "https://app.spiralstake.xyz";
-          }}
-        >
-          <Button fill={true} text={"Launch app"} />
-        </div>
-        <div onClick={()=>window.location.href = "#Working"}>
-          <Button fill={false} text={"Learn how it works"}/>
-        </div>
+            className=""
+            onClick={() => {
+              window.location.href = "https://app.spiralstake.xyz";
+            }}
+          >
+            <Button fill={true} text={"Launch app"} />
+          </div>
+          <div onClick={() => (window.location.href = "#Working")}>
+            <Button fill={false} text={"Learn how it works"} />
+          </div>
         </div>
       </div>
-      <div className="w-[849px] hidden md:flex px-4 md:px-0">
+      <div className="w-[849px] hidden lg:flex px-4 lg:px-0">
         <img src={Lpool} alt="" />
       </div>
-      <div className="mx-10 mt-16 flex md:hidden">
+      <div className="mx-10 mt-16 flex lg:hidden">
         <img src={LpoolMobile} alt="" />
       </div>
     </div>

@@ -10,19 +10,22 @@ import target from "../assets/target.svg";
 import infinity from "../assets/infinity.svg";
 
 import Email from "../components/Email";
+import Steps from "../components/Steps";
+import RoadMap from "../components/RoadMap";
 
 const Working = () => {
   return (
     <div id="Working">
-      <div className="px-6 md:px-0 flex flex-col gap-10 md:gap-20 py-16 md:py-[40px]">
-        <div className="text-center space-y-2">
-          <p className="text-[32px] md:text-[40px] md:text-5xl font-[600]">
+      <div className="px-6 lg:px-0 flex flex-col gap-10 lg:gap-20 py-16 lg:py-[40px]">
+        <div className="text-center space-y-2 lg:hidden">
+          <p className="text-[32px] lg:text-[40px] lg:text-5xl font-[600]">
             How does Spiral Stake work?
           </p>
         </div>
-        <WorkingSteps />
+        {/* <WorkingSteps /> */}
+        <Steps />
         {/* for mobile */}
-        <div className="flex flex-col gap-6 md:hidden">
+        <div className="flex flex-col gap-6 lg:hidden">
           <WorkingSteps
             img={step1}
             info={
@@ -61,8 +64,11 @@ const Working = () => {
           />
         </div>
       </div>
+      <div>
+        <RoadMap/>
+      </div>
       <div className=" w-full h-[800px] loop relative">
-        <div className="absolute w-full flex justify-center items-center top-5">
+        <div className="absolute w-full flex justify-center items-center top-10">
           <Email />
         </div>
       </div>

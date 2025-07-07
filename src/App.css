@@ -28,19 +28,68 @@
 .loop{
   background-image: url("./assets/stayLoop.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+.transitions{
+  animation-duration: 0.7s;
+  animation-name: animate-item;
+} 
+
+@keyframes animate-item{
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform:translateY();
+  }
+}
+
+.img_animation{
+  animation-duration: 0.7s;
+  animation-name: animate-img;
+}
+
+@keyframes animate-img{
+  0%{
+    transform: translateY(540px) ;
+  }
+  100%{
+    transform: translateY();
+  }
+}
+
+/* .img_hide{
+  animation-duration: 1s;
+  animation-name: img-hide;
+}
+
+@keyframes img-hide{
+  0%{
+    transform: translate() scaleY(1);
+  }
+  100%{
+    transform: translateY(-200px) scaleY(0) hidden;
+  }
 }
 
 /* .animate{
   
 } */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .bgimg{
   background-image: url("./assets/newbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left 60% ;
+}
+
+.loop{
+  background-image: url("./assets/stayLoop.svg");
+  background-repeat: no-repeat;
+  background-size: 200vw;
+  background-position:center;
 }
 }
 

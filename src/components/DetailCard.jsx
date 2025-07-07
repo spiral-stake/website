@@ -1,6 +1,6 @@
 const DetailCard = ({ img, title, msg }) => {
   return (
-    <div className="w-full md:p-[24px] md:w-[371px] gap-6  flex flex-col items-center border-[2px] border-gray-800 rounded-xl">
+    <div className="w-full lg:p-[24px] lg:w-[371px] gap-6  flex flex-col items-center border-[2px] border-gray-800 rounded-xl">
       <div>
         <img src={img} alt="" className="w-[150px]" />
       </div>
