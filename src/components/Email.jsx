@@ -4,7 +4,9 @@ const Email = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-10 lg:gap-6 py-[72px] px-4 lg:px-[80px]">
       <div className="text-center space-y-3">
-        <p className="text-[32px] lg:text-[40px] font-[600]">Stay in Loop</p>
+        <p className="text-[32px] lg:text-[40px] font-[600]">
+          Stay in the Loop
+        </p>
         <p className="text-[14px] lg:text-[16px] text-gray-400 font-[400]">
           Join Our Exclusive Newsletter for Inspiration, Insider Updates, and
           Special Offers!

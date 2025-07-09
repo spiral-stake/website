@@ -22,7 +22,6 @@ const Working = () => {
             How does Spiral Stake work?
           </p>
         </div>
-        {/* <WorkingSteps /> */}
         <Steps />
         {/* for mobile */}
         <div className="flex flex-col gap-6 lg:hidden">
@@ -65,7 +64,7 @@ const Working = () => {
         </div>
       </div>
       <div>
-        <RoadMap/>
+        <RoadMap />
       </div>
       <div className=" w-full h-[650px] mt-[24px] lg:h-[800px] loop relative">
         <div className="absolute w-full flex justify-center items-center top-0 lg:top-10">

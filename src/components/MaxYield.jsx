@@ -26,7 +26,11 @@ const MaxYield = () => {
           }
         />
         <div className="pl-[24px] lg:pl-[0]">
-            <img src={arrow} alt="" className="w-[22px] lg:w-[40px] lg:pt-[36px] rotate-90 lg:rotate-0" />
+          <img
+            src={arrow}
+            alt=""
+            className="w-[22px] lg:w-[40px] lg:pt-[36px] rotate-90 lg:rotate-0"
+          />
         </div>
         <MaxYieldSteps
           img={Looping}
@@ -35,11 +39,15 @@ const MaxYield = () => {
           info={"Borrow SPIUSD, restake, and loop to amplify your exposure."}
         />
         <div className="pl-[24px] lg:pl-[0]">
-            <img src={arrow} alt="" className="w-[22px] lg:w-[40px] lg:pt-[36px] rotate-90 lg:rotate-0" />
+          <img
+            src={arrow}
+            alt=""
+            className="w-[22px] lg:w-[40px] lg:pt-[36px] rotate-90 lg:rotate-0"
+          />
         </div>
         <MaxYieldSteps
           img={yieldCoins}
-          title={"Earnig"}
+          title={"Earning"}
           step={"3"}
           info={"Earn layered staking yields without giving up liquidity."}
         />

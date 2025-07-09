@@ -56,9 +56,9 @@ const Steps = () => {
               step 2
             </p>
             <div className="flex flex-row gap-2">
-              <img src={wallet} alt="" className="w-10" />
+              <img src={bag} alt="" className="w-10" />
               <p className="text-[24px] font-[500]">
-                Deposit Staked Stablecoins
+                Choose Your Borrowing Method
               </p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
@@ -72,15 +72,12 @@ const Steps = () => {
               step 3
             </p>
             <div className="flex flex-row gap-2">
-              <img src={wallet} alt="" className="w-10" />
-              <p className="text-[24px] font-[500]">
-                Deposit Staked Stablecoins
-              </p>
+              <img src={target} alt="" className="w-10" />
+              <p className="text-[24px] font-[500]">Receive SPIUSD</p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
-              Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked
-              stablecoins as collateral while they continue earning staking
-              rewards.
+              Get our fully collateralized stablecoin that maintains its $1 peg
+              through robust arbitrage mechanisms.
             </p>
           </div>
           <div className="flex flex-col pt-4 border-t-[1px] border-gray-700 gap-2 bg-black h-[270px] sticky top-[420px]">
@@ -88,14 +85,12 @@ const Steps = () => {
               step 4
             </p>
             <div className="flex flex-row gap-2">
-              <img src={wallet} alt="" className="w-10" />
-              <p className="text-[24px] font-[500]">
-                Deposit Staked Stablecoins
-              </p>
+              <img src={infinity} alt="" className="w-10" />
+              <p className="text-[24px] font-[500]">Loop & Amplify</p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
-              Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked
-              stablecoins as collateral while they continue earning staking
+              Reinvest to increase your staked position, participate in other
+              protocols, or simply hold liquid capital while earning staking
               rewards.
             </p>
           </div>

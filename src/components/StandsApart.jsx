@@ -26,7 +26,7 @@ const StandsApart = () => {
         </div>
         <div className="flex justify-center items-center gap-2 py-4 px-2 border-b border-b-gray-600">
           <img src={dao} alt="" />{" "}
-          <p className="hidden lg:flex text-[20px] font-[400]">MarkerDao</p>
+          <p className="hidden lg:flex text-[20px] font-[400]">MarkerDAO</p>
         </div>
         <div className="flex justify-center items-center gap-2 py-4 px-2 border-b border-b-gray-600">
           <img src={ethena} alt="" />{" "}
@@ -73,7 +73,7 @@ const StandsApart = () => {
         </div>
         <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center bg-gray-400 bg-opacity-5">
           <p className="text-[12px] lg:text-[18px] font-[400] text-gray-400">
-            Native Lopping
+            Native Looping
           </p>
         </div>
         <div className="py-4 px-2 border-b-[1px] border-b-gray-800 flex justify-center items-center">
