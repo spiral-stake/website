@@ -1,7 +1,7 @@
 import backgroundImage from "../assets/hero.svg";
 import bg from "../assets/newbg.svg";
 import Lpool from "../assets/LiquidityPool.svg";
-import LpoolMobile from "../assets/LpoolMobile.svg";
+import LpoolMobile from "../assets/LPoolMobile.svg";
 import Button from "../components/Button";
 
 const HomePage = () => {
