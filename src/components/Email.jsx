@@ -8,17 +8,24 @@ const Email = () => {
           Stay in the Loop
         </p>
         <p className="text-[14px] lg:text-[16px] text-gray-400 font-[400]">
-          Join Our Exclusive Newsletter for Inspiration, Insider Updates, and
-          Special Offers!
+          Stay Connected — Reach out on X for further discussion, updates, and
+          announcements
         </p>
       </div>
-      <div className="flex flex-col px-[34px] lg:flex-row justify-between gap-5 rounded-3xl lg:border-[2px] w-full lg:w-[400px] border-gray-800 py-1 pl-5 lg:pr-1">
+      {/* <div className="flex flex-col px-[34px] lg:flex-row justify-between gap-5 rounded-3xl lg:border-[2px] w-full lg:w-[400px] border-gray-800 py-1 pl-5 lg:pr-1">
         <input
           type="text"
           className="w-full p-4 border-[1px] border-gray-700 rounded-3xl lg:border-0 lg:p-0 bg-transparent outline-none text-xs placeholder:text-[14px] placeholder:font-[400]"
           placeholder="Enter your Email"
         />
         <Button long={true} fill={true} text={"Subscribe"} />
+      </div> */}
+      <div
+        onClick={() => {
+          window.location.href = "https://x.com/0xab58";
+        }}
+      >
+        <Button long={true} fill={true} text={"Connect on X"} />
       </div>
     </div>
   );
