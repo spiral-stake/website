@@ -12,10 +12,12 @@
   background-image: url("./assets/newbg.svg");
   background-size: cover;
   background-position: 20%;
+  background-repeat: no-repeat;
 }
 
 .globe {
   background-image: url("./assets/Globe.svg");
+  background-repeat: no-repeat;
 }
 
 .globe_mobile {
