@@ -18,8 +18,8 @@ const HomePage = () => {
           </p>
         </div>
         <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[60px]">
-          The first yield product designed exclusively for stablecoin holders. Maximize returns
-          while preserving capital.
+          The first yield product designed exclusively for stablecoin holders. delivering maximum
+          yield with zero uncertainty.
         </p>
 
         <div className="flex flex-row gap-4">
