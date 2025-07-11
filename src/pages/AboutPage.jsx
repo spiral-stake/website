@@ -23,13 +23,13 @@ const AboutPage = () => {
           <div className="w-[60%] lg:w-[660px] flex flex-col lg:justify-center gap-4">
             <p className="text-[32px] lg:text-[50px] font-[500]">What is Spiral Stake?</p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
-              Spiral Stake is a fixed-leverage yield platform built for stablecoin holders. It lets
-              users amplify returns from staked stable PTs by locking in a fixed borrow rate using
-              our protocol-native stablecoin, stblUSD.
+              Spiral Stake is a stable leveraged yields platform built solely for stablecoins. It
+              lets users amplify returns from their chosen staked stable PTs by locking in a fixed
+              borrow rate using our protocol native stablecoin, stblUSD.
               <br />
               <br />
-              Choose a predictable, high-yield product — without the risk of variable yield or the
-              hassle of manual looping.
+              Choose a predictable, high-yield product — without the risk of variable leveraged
+              yield or the hassle of manual looping.
             </p>
             <div
               className="hidden lg:flex pt-4"

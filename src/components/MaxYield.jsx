@@ -34,7 +34,7 @@ const MaxYield = () => {
           img={Looping}
           title={"Automated Looping"}
           step={"2"}
-          info={"Get auto-looped into fixed-leverage yield positions"}
+          info={"Get auto-looped into stable leveraged yield positions"}
         />
         <div className="pl-[24px] lg:pl-[0]">
           <img

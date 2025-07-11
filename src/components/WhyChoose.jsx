@@ -26,9 +26,7 @@ const WhyChoose = () => {
         <InfoCard
           colorfull={false}
           symbol={coins}
-          info={
-            "stblUSD adoption drives borrowing costs down and leveraged yields higher overtime."
-          }
+          info={"stblUSD adoption lowers borrowing costs and boosts leveraged yields over time"}
           title={"Reducing Borrow Rates, and Higher Yields"}
         />
         <InfoCard
@@ -36,7 +34,7 @@ const WhyChoose = () => {
           info={
             "Borrow rates adjust dynamically based on peg health, liquidity, and demand for stblUSD"
           }
-          title={"Market-Responsive Rate Engine"}
+          title={"Market-driven Borrow Costs"}
           symbol={option}
         />
         <InfoCard
