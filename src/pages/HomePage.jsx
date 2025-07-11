@@ -13,13 +13,13 @@ const HomePage = () => {
       <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
         <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
           <p>
-            Your Staked Stablecoins,
+            Stablecoin Yields
             <br /> Supercharged
           </p>
         </div>
         <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[60px]">
-          The first money market designed exclusively for staked stablecoin
-          holders. Maximize yields while preserving access to capital.
+          The first yield product designed exclusively for stablecoin holders. Maximize returns
+          while preserving capital.
         </p>
 
         <div className="flex flex-row gap-4">

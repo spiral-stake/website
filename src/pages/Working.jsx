@@ -28,38 +28,29 @@ const Working = () => {
           <WorkingSteps
             img={step1}
             info={
-              "Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked stablecoins as collateral while they continue earning staking rewards."
+              "Start by depositing any major stablecoin like USDC USDT or frxUSD — no need for complex DeFi interactions."
             }
             step={"1"}
             symbol={wallet}
-            title={"Deposit Staked Stablecoins"}
+            title={"Deposit Stablecoins"}
           />
           <WorkingSteps
             img={step2}
             info={
-              "Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked stablecoins as collateral while they continue earning staking rewards."
+              "Your stablecoins are converted into Pendle PTs of your chosen staked stablecoin and automatically looped using stblUSD, locking in a fixed borrow rate and leveraged yield."
             }
             step={"2"}
             symbol={bag}
-            title={"Choose Your Borrowing Method"}
+            title={"Auto-Leverage into Fixed Yield"}
           />
           <WorkingSteps
             img={step3}
             info={
-              "Get our fully collateralized stablecoin that maintains its $1 peg through robust arbitrage mechanisms."
+              "Monitor your earnings through a simple dashboard and close your position anytime — no lockups, just predictable, high-yield performance."
             }
             step={"3"}
             symbol={target}
-            title={"Receive SPIUSD"}
-          />
-          <WorkingSteps
-            img={step4}
-            info={
-              "Reinvest to increase your staked position, participate in other protocols, or simply hold liquid capital while earning staking rewards."
-            }
-            step={"4"}
-            symbol={infinity}
-            title={"Loop and Amplify"}
+            title={"Earn Predictable Returns"}
           />
         </div>
       </div>

@@ -12,18 +12,16 @@ const MaxYield = () => {
           Maximize Yield in 3 Simple Steps
         </p>
         <p className=" text-center text-[14px] lg:text-[16px] font-[400] text-gray-500">
-          Spiral Stake makes it easy to unlock liquidity, amplify your position,
-          and earn more—without giving up staking rewards.
+          Spiral Stake makes it easy to unlock liquidity, amplify your position, and earn
+          more—without giving up staking rewards.
         </p>
       </div>
       <div className="grid grid-row-[auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto] gap-[14px] lg:gap-[44px]">
         <MaxYieldSteps
           img={deposit}
-          title={"Lending"}
+          title={"Deposit"}
           step={"1"}
-          info={
-            "Deposit sFrxUSD, sUSDe, or sUSDf—your assets stay staked and earning."
-          }
+          info={"Deposit any stablecoin of your choice"}
         />
         <div className="pl-[24px] lg:pl-[0]">
           <img
@@ -34,9 +32,9 @@ const MaxYield = () => {
         </div>
         <MaxYieldSteps
           img={Looping}
-          title={"Looping"}
+          title={"Automated Looping"}
           step={"2"}
-          info={"Borrow SPIUSD, restake, and loop to amplify your exposure."}
+          info={"Get auto-looped into fixed-leverage yield positions"}
         />
         <div className="pl-[24px] lg:pl-[0]">
           <img
@@ -47,9 +45,9 @@ const MaxYield = () => {
         </div>
         <MaxYieldSteps
           img={yieldCoins}
-          title={"Earning"}
+          title={"Predictable returns"}
           step={"3"}
-          info={"Earn layered staking yields without giving up liquidity."}
+          info={"Earn high, stable returns — no active management needed"}
         />
       </div>
     </div>

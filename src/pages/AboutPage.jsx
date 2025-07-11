@@ -21,24 +21,20 @@ const AboutPage = () => {
       <div id="AboutPage">
         <div className="hidden w-full lg:flex flex-col lg:flex-row h-fit lg:h-[1300px] pl-2 pt-4 lg:pl-[80px] lg:pt-[80px]">
           <div className="w-[60%] lg:w-[660px] flex flex-col lg:justify-center gap-4">
-            <p className="text-[32px] lg:text-[50px] font-[500]">
-              What is Spiral Stake?
-            </p>
+            <p className="text-[32px] lg:text-[50px] font-[500]">What is Spiral Stake?</p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
-              Spiral Stake is a specialized money market protocol designed
-              exclusively for staked stablecoin holders. It solves a fundamental
-              DeFi challenge: allowing users to maintain their staking rewards
-              while accessing liquidity through innovative borrowing mechanisms.
+              Spiral Stake is a fixed-leverage yield platform built for stablecoin holders. It lets
+              users amplify returns from staked stable PTs by locking in a fixed borrow rate using
+              our protocol-native stablecoin, stblUSD.
               <br />
               <br />
-              The protocol enables users to maximize yields on staked
-              stablecoins without sacrificing capital accessibility.
+              Choose a predictable, high-yield product — without the risk of variable yield or the
+              hassle of manual looping.
             </p>
             <div
               className="hidden lg:flex pt-4"
               onClick={() => {
-                window.location.href =
-                  "https://spiral-stake.gitbook.io/spiral-stake-docs";
+                window.location.href = "https://spiral-stake.gitbook.io/spiral-stake-docs";
               }}
             >
               <Button fill={false} text={"Read Documentation"} />
@@ -51,7 +47,7 @@ const AboutPage = () => {
                 <InfoTemplate
                   title={"The Problem"}
                   msg={
-                    "Traditional DeFi forces users to choose between earning staking rewards or having liquid capital available for other opportunities."
+                    "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
                   }
                 />
               </div>
@@ -60,7 +56,7 @@ const AboutPage = () => {
                 <InfoTemplate
                   title={"Spiral Stake's Solution"}
                   msg={
-                    "A dual-mechanism lending protocol that allows users to borrow against their staked stablecoins while continuing to earn staking rewards, creating opportunities for yield amplification and capital efficiency."
+                    "The first fixed-leverage yield platform tailored for stablecoin holders. By combining Fixed Yield with our protocol-minted stblUSD, users can lock in their borrow rate upfront, access high-yield strategies with ease, and preserve capital — all without relying on lenders or suffering from rate volatility."
                   }
                 />
               </div>
@@ -82,7 +78,7 @@ const AboutPage = () => {
           <div>
             <InfoTemplate
               msg={
-                "Traditional DeFi forces users to choose between earning staking rewards or having liquid capital available for other opportunities."
+                "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
               }
               title={"The problem"}
             />
@@ -90,7 +86,7 @@ const AboutPage = () => {
           <div>
             <InfoTemplate
               msg={
-                "A dual-mechanism lending protocol that allows users to borrow against their staked stablecoins while continuing to earn staking rewards, creating opportunities for yield amplification and capital efficiency."
+                "Spiral Stake introduces the first fixed-leverage yield platform tailored for stablecoin holders. By combining Fixed Yield with our protocol-minted stblUSD, users can lock in their borrow rate upfront, access high-yield strategies with ease, and preserve capital — all without relying on lenders or suffering from rate volatility."
               }
               title={"Spiral Stake's Solution"}
             />
@@ -114,7 +110,7 @@ const AboutPage = () => {
         </div>
         <WhyChoose />
         <MaxYield />
-        <StandsApart />
+        {/* <StandsApart /> NEEDS TO BE USED LATER */}
       </div>
     </div>
   );

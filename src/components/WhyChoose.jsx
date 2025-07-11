@@ -12,42 +12,38 @@ const WhyChoose = () => {
           Why choose Spiral Stake?
         </p>
         <p className=" text-center text-[14px] lg:text-[16px] font-[400] text-gray-500">
-          SpiralStake provides secure, transparent access to yield-bearing
-          liquidity—all in one unified platform.
+          SpiralStake provides secure, transparent access to yield-bearing liquidity—all in one
+          unified platform.
         </p>
       </div>
       <div className="flex flex-col lg:grid grid-cols-2 grid-rows-2 gap-[16px] lg:gap-6">
         <InfoCard
           colorfull={true}
           symbol={growth}
-          info={
-            "Set your own borrowing costs through competitive auctions, giving you unprecedented control over your capital expenses."
-          }
-          title={"Borrower-Controlled Rates"}
+          info={"Leveraged yields, automated — no more complex steps."}
+          title={"Effortless Stable Leveraged Yields"}
         />
         <InfoCard
           colorfull={false}
           symbol={coins}
           info={
-            "Maintain your staking rewards while accessing capital to deploy in other yield-generating strategies across DeFi."
+            "stblUSD adoption drives borrowing costs down and leveraged yields higher overtime."
           }
-          title={"Leveraged Yields"}
+          title={"Reducing Borrow Rates, and Higher Yields"}
         />
         <InfoCard
           colorfull={false}
           info={
-            "Choose between instant borrowing or auction-based rates. Access liquidity on your terms, whenever you need it."
+            "Borrow rates adjust dynamically based on peg health, liquidity, and demand for stblUSD"
           }
-          title={"Flexible Access Options"}
+          title={"Market-Responsive Rate Engine"}
           symbol={option}
         />
         <InfoCard
           colorfull={false}
-          info={
-            "SPIUSD stays pegged via a robust Peg Stability Module and automated arbitrage."
-          }
+          info={"Simple, high-yield deposits — not just for DeFi pros."}
           symbol={balance}
-          title={"Robust Price Stability"}
+          title={"Made for the Masses"}
         />
       </div>
     </div>

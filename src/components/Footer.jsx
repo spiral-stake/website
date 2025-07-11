@@ -14,13 +14,11 @@ const Footer = () => {
         <div className=" w-[411px] flex flex-col gap-[20px] pr-[32px]">
           <div className="flex items-center gap-3">
             <img src={logo} alt="" className="w-10" />
-            <p className="text-2xl text-stone-300 font-semibold">
-              Spiral Stake
-            </p>
+            <p className="text-2xl text-stone-300 font-semibold">Spiral Stake</p>
           </div>
           <div className="text-sm text-gray-600">
-            Join competitive staking cycles, win liquidity, and maximize rewards
-            with fair participation
+            Stablecoin holders can now access stable leveraged yields, Predictable returns, zero
+            hassle — built for everyone.
           </div>
           <div className="flex gap-2 items-center">
             <img src={mail} alt="" />

@@ -28,59 +28,48 @@ const Steps = () => {
             alt=""
             className="w-[540px] sticky top-[150px] translate-x-4 translate-y-4"
           />
-          <img
+          {/* <img
             src={step4}
             alt=""
             className="w-[540px] sticky top-[150px] translate-x-6 translate-y-6"
-          />
+          /> */}
         </div>
         <div className="">
           <div className="flex flex-col gap-2 h-[540px] sticky top-[150px]">
-            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">
-              step 1
-            </p>
+            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">step 1</p>
             <div className="flex flex-row gap-2">
               <img src={wallet} alt="" className="w-10" />
-              <p className="text-[24px] font-[500]">
-                Deposit Staked Stablecoins
-              </p>
+              <p className="text-[24px] font-[500]">Deposit Stablecoins</p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
-              Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked
-              stablecoins as collateral while they continue earning staking
-              rewards.
+              Start by depositing any major stablecoin like USDC USDT or frxUSD — no need for
+              complex DeFi interactions.
             </p>
           </div>
           <div className="flex flex-col pt-4 border-t-[1px] border-gray-700 bg-black gap-2 h-[460px] sticky top-[230px]">
-            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">
-              step 2
-            </p>
+            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">step 2</p>
             <div className="flex flex-row gap-2">
               <img src={bag} alt="" className="w-10" />
-              <p className="text-[24px] font-[500]">
-                Choose Your Borrowing Method
-              </p>
+              <p className="text-[24px] font-[500]">Auto-Leverage into Fixed Yield</p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
-              Lock your sFrxUSD, sUSDe, sUSDf, or other supported staked
-              stablecoins as collateral while they continue earning staking
-              rewards.
+              Your stablecoins are converted into Pendle PTs of your chosen staked stablecoin and
+              automatically looped using stblUSD, locking in a fixed borrow rate and leveraged
+              yield.
             </p>
           </div>
           <div className="flex flex-col pt-4 border-t-[1px] border-gray-700 bg-black gap-2 h-[360px] sticky top-[330px]">
-            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">
-              step 3
-            </p>
+            <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">step 3</p>
             <div className="flex flex-row gap-2">
               <img src={target} alt="" className="w-10" />
-              <p className="text-[24px] font-[500]">Receive SPIUSD</p>
+              <p className="text-[24px] font-[500]">Earn Predictable Returns</p>
             </div>
             <p className="text-[16px] text-gray-400 h-[400px] font-[400]">
-              Get our fully collateralized stablecoin that maintains its $1 peg
-              through robust arbitrage mechanisms.
+              Monitor your earnings through a simple dashboard and close your position anytime — no
+              lockups, just predictable, high-yield performance.
             </p>
           </div>
-          <div className="flex flex-col pt-4 border-t-[1px] border-gray-700 gap-2 bg-black h-[270px] sticky top-[420px]">
+          {/* <div className="flex flex-col pt-4 border-t-[1px] border-gray-700 gap-2 bg-black h-[270px] sticky top-[420px]">
             <p className="bg-gray-800 text-[14px] font-[400] w-fit px-2 rounded-[19px]">
               step 4
             </p>
@@ -93,7 +82,7 @@ const Steps = () => {
               protocols, or simply hold liquid capital while earning staking
               rewards.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
