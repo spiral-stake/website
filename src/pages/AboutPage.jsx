@@ -17,7 +17,7 @@ import StandsApart from "../components/StandsApart";
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div id="AboutPage">
         <div className="hidden w-full lg:flex flex-col lg:flex-row h-fit lg:h-[1300px] pl-2 pt-4 lg:pl-[80px] lg:pt-[80px]">
           <div className="w-[60%] lg:w-[660px] flex flex-col lg:justify-center gap-4">
