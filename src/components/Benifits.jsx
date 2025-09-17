@@ -14,7 +14,7 @@ const Benifits = () => {
         </p>
       </div>
       <div className="flex lg:hidden">
-         <img src={access} alt="" />
+        <img src={access} alt="" />
       </div>
       <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-16">
         <div className="flex flex-col justify-between gap-10 lg:gap-0 lg:py-6">
@@ -30,7 +30,7 @@ const Benifits = () => {
           />
         </div>
         <div className="hidden col-span-2 lg:flex justify-center">
-          <img src={access} alt="" className="" />
+          <img src={access} alt="" className="w-[600px]" />
         </div>
         <div className="flex flex-col justify-between gap-10 lg:gap-0 lg:py-6">
           <BenifitCard

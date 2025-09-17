@@ -21,7 +21,9 @@ const AboutPage = () => {
       <div id="AboutPage">
         <div className="hidden w-full lg:flex flex-col lg:flex-row h-fit lg:h-[1300px] pl-2 pt-4 lg:pl-[80px] lg:pt-[80px]">
           <div className="w-[60%] lg:w-[660px] flex flex-col lg:justify-center gap-4">
-            <p className="text-[32px] lg:text-[50px] font-[500]">What is Spiral Stake?</p>
+            <p className="text-[32px] lg:text-[50px] font-[500]">
+              What is <br /> Spiral Stake?
+            </p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
               Spiral Stake is a stable leveraged yields platform built solely for stablecoins. It
               lets users amplify returns from their chosen staked stable PTs by locking in a fixed
@@ -34,7 +36,7 @@ const AboutPage = () => {
             <div
               className="hidden lg:flex pt-4"
               onClick={() => {
-                window.location.href = "https://spiral-stake.gitbook.io/spiral-stake-docs";
+                window.open("https://docs.spiralstake.xyz", "_blank");
               }}
             >
               <Button fill={false} text={"Read Documentation"} />

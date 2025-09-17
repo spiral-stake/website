@@ -18,21 +18,27 @@ const HomePage = () => {
           </p>
         </div>
         <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[20px]">
-          The first leveraged yields product designed exclusively for stablecoin holders. Delivering
-          maximum yield with zero uncertainty.
+          The first leveraged looping protocol designed exclusively for stablecoin yields.
+          Delivering maximum yield with zero uncertainty.
         </p>
 
         <div className="flex flex-row gap-4">
           <div
             className=""
             onClick={() => {
-              window.location.href = "https://app.spiralstake.xyz";
+              window.open("https://app.spiralstake.xyz", "_blank");
             }}
           >
             <Button fill={true} text={"Launch app"} />
           </div>
-          <div onClick={() => (window.location.href = "#Working")}>
-            <Button fill={false} text={"Learn how it works"} />
+
+          <div
+            className=""
+            onClick={() => {
+              window.open("https://docs.spiralstake.xyz", "_blank");
+            }}
+          >
+            <Button fill={false} text={"Explore Docs"} />
           </div>
         </div>
       </div>

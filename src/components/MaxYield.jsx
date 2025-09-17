@@ -1,8 +1,5 @@
 import MaxYieldSteps from "./MaxYieldSteps";
 import arrow from "../assets/arrow.svg";
-import Looping from "../assets/Looping.svg";
-import yieldCoins from "../assets/yieldCoins.svg";
-import deposit from "../assets/deposit.svg";
 
 const MaxYield = () => {
   return (
@@ -18,7 +15,7 @@ const MaxYield = () => {
       </div>
       <div className="grid grid-row-[auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto] gap-[14px] lg:gap-[44px]">
         <MaxYieldSteps
-          img={deposit}
+          img={"/animations/1st.lottie"}
           title={"Deposit"}
           step={"1"}
           info={"Deposit any stablecoin of your choice"}
@@ -31,7 +28,7 @@ const MaxYield = () => {
           />
         </div>
         <MaxYieldSteps
-          img={Looping}
+          img={"/animations/2nd.lottie"}
           title={"Automated Looping"}
           step={"2"}
           info={"Get auto-looped into stable leveraged yield positions"}
@@ -44,7 +41,7 @@ const MaxYield = () => {
           />
         </div>
         <MaxYieldSteps
-          img={yieldCoins}
+          img={"/animations/3rd.lottie"}
           title={"Predictable returns"}
           step={"3"}
           info={"Earn high, stable returns — no active management needed"}

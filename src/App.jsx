@@ -46,7 +46,7 @@ function App() {
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="working" element={<Working/>}/>
     </Routes> */}
-        <Home/>
+        <Home />
         <AboutPage />
         <Working />
       </main>

@@ -16,6 +16,7 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
         <img src={logo} alt="" className="w-8 lg:w-10" />
       </div>
+
       <div className=" hidden lg:flex gap-8">
         <a href="#Home">
           <p className="cursor-pointer">Home</p>
@@ -36,10 +37,7 @@ const Navbar = () => {
       >
         <Button fill={false} text={"Launch App"} />
       </div>
-      <div
-        className="w-full flex justify-end lg:hidden"
-        onClick={() => setShowList(!showList)}
-      >
+      <div className="w-full flex justify-end lg:hidden" onClick={() => setShowList(!showList)}>
         <img src={listIcon} alt="" />
         {showList && <MenuList />}
       </div>

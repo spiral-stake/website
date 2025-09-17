@@ -1,9 +1,7 @@
 const InfoCard = ({ symbol, title, info, colorfull }) => {
   return (
     <div
-      className={`flex flex-col gap-[12px] lg:gap-[62px] p-[24px] max-w-[548px] rounded-[24px] border-[1px] border-gray-800 ${
-        colorfull ? "bgimg" : "bg-white bg-opacity-5"
-      }`}
+      className={`flex flex-col gap-[12px] lg:gap-[62px] transition-all duration-200 p-[24px] max-w-[548px] rounded-[24px] border-[1px] border-gray-800 infoCard`}
     >
       <div>
         <img src={symbol} alt="" className="w-10" />
