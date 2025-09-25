@@ -20,13 +20,15 @@ const Benifits = () => {
         <div className="flex flex-col justify-between gap-10 lg:gap-0 lg:py-6">
           <BenifitCard
             logo={search}
-            title={"Discover Yeilds"}
-            body={"Find yield options across stablecoins, ETH, and BTC."}
+            title={"Control Exposure Safely"}
+            body={"Customizable leverage, full control, amplified yield, and peace of mind."}
           />
           <BenifitCard
             logo={growthblue}
-            title={"Stay Informed"}
-            body={"Track returns, rewards, and risks in real time."}
+            title={"Outperform Markets Passively"}
+            body={
+              "Grow wealth passively, earn lump sums, outperform traditional assets."
+            }
           />
         </div>
         <div className="hidden col-span-2 lg:flex justify-center">
@@ -35,13 +37,15 @@ const Benifits = () => {
         <div className="flex flex-col justify-between gap-10 lg:gap-0 lg:py-6">
           <BenifitCard
             logo={clock}
-            title={"Time Saving"}
-            body={"Fast, hassle-free transactions."}
+            title={"Lucrative Low Risk Capital Allocation"}
+            body={"Spiral Stake makes low-risk DeFi more lucrative, easy, and safer than bonds or idle stables."}
           />
           <BenifitCard
             logo={gas}
             title={"Gas Efficiency"}
-            body={"Lower costs with optimized gas use."}
+            body={
+              "1 flash-leverage tx via Morpho ensuring low execution cost & hassle"
+            }
           />
         </div>
       </div>

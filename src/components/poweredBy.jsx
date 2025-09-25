@@ -8,7 +8,7 @@ const PoweredBy = () => {
         <div>
           <img src="/morpho.svg" alt="" className="w-[240px]" />
         </div>
-        <div className="w-[280px]">
+        <div className="w-[270px]">
           <img
             src="https://www.pendle.finance/.netlify/images?url=%2Flogo.png"
             alt=""

@@ -20,7 +20,7 @@ const MaxYield = () => {
           step={"1"}
           info={"Deposit any stablecoin of your choice"}
         />
-        <div className="pl-[24px] lg:pl-[0]">
+        <div className="pl-[25%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""
@@ -33,7 +33,7 @@ const MaxYield = () => {
           step={"2"}
           info={"Get auto-looped into stable leveraged yield positions"}
         />
-        <div className="pl-[24px] lg:pl-[0]">
+        <div className="pl-[25%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""

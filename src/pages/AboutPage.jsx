@@ -27,14 +27,14 @@ const AboutPage = () => {
               What is <br /> Spiral Stake?
             </p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
-              Spiral Stake is a stable leveraged yields platform built solely
-              for stablecoins. It lets users amplify returns from their chosen
-              staked stable PTs by locking in a fixed borrow rate using our
-              protocol native stablecoin, stblUSD.
+              Spiral Stake is a non-custodial DeFi platform offering stable
+              yields up to 90% APY. It combines Pendle PTs and Morpho Markets to
+              deliver predictable returns with full user control.
               <br />
               <br />
-              Choose a predictable, high-yield product — without the risk of
-              variable leveraged yield or the hassle of manual looping.
+              Through gas-efficient flash leverage and curated stablecoins,
+              Spiral Stake makes high-yield strategies simple, safe, and
+              scalable.
             </p>
             <div
               className="hidden lg:flex pt-4"
@@ -47,25 +47,53 @@ const AboutPage = () => {
           </div>
           <div className="hidden w-full relative lg:flex items-end justify-end">
             <div className="absolute w-[500px] h-[500px] top-0 left-[36%] lg:w-[1182px] lg:h-[1182px] rounded-full border-[2px] border-gray-400 globe">
-              <div className="hidden lg:flex absolute flex-row top-[300px] left-[10px] gap-4">
+              <div className="hidden lg:flex absolute flex-row top-[270px] left-[-12px] gap-4">
                 <DotName text={"Problem"} />
-                <InfoTemplate
-                  title={
-                    "DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"
-                  }
-                  msg={
-                    "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
-                  }
-                />
+                <div className="flex flex-col gap-4 items-start w-full lg:w-[368px] py-[12px] px-[16px] bg-black bg-opacity-[40%] rounded-[20px] backdrop-blur-lg">
+                  <p className="font-normal text-[12px] lg:text-[16px]">
+                    DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops
+                  </p>
+                  <p className="text-[12px] lg:text-[14px] text-gray-400 font-light text-left">
+                    Unstable rates & clunky, time consuming manual looping trash
+                    the ROI of investors looking for safe & sustainable yield
+                    <br />
+                    Insufficient liquidity, high gas costs, rate spikes, poor UX
+                    and liquidation risk are difficult to mitigate
+                    <br />
+                    Insufficient liquidity in liquidity pools causes high
+                    slippage & uncertain ROI.
+                    <br />
+                    Decreased ability to exploit profitable opportunities for
+                    fixed yield with size
+                    <br />
+                    This deters serious capital used to highly optimized, low
+                    dependency platforms from making the plunge.
+                  </p>
+                </div>
               </div>
-              <div className="absolute flex flex-row top-[734px] left-[0px] gap-4">
+              <div className="absolute flex flex-row top-[630px] left-[-10px] gap-4">
                 <DotName text={"Solution"} />
-                <InfoTemplate
-                  title={"Only Until Now"}
-                  msg={
-                    "The first fixed-leverage yield platform tailored for stablecoin holders. By combining Fixed Yield with our protocol-minted stblUSD, users can lock in their borrow rate upfront, access high-yield strategies with ease, and preserve capital — all without relying on lenders or suffering from rate volatility."
-                  }
-                />
+                <div className="flex flex-col gap-4 items-start w-full lg:w-[368px] py-[12px] px-[16px] bg-black bg-opacity-[40%] rounded-[20px] backdrop-blur-lg">
+                  <p className="font-normal text-[12px] lg:text-[16px]">
+                    Spiral Stake unlocks predictable, scalable yield with
+                    one-click efficiency
+                  </p>
+                  <p className="text-[12px] lg:text-[14px] text-gray-400 font-light text-left">
+                    Fixed returns, safe leverage, and seamless execution replace
+                    unstable rates and tedious manual loops. Flash-leverage
+                    through Morpho collapses 9× loops into a single,
+                    gas-efficient transaction.
+                    <br />
+                    Pendle PTs lock in stable, outsized APY up to 90%, while
+                    curated, audited stablecoins ensure capital security.
+                    <br />
+                    Battle-tested integrations eliminate clunky UX and
+                    liquidation risk, putting investors back in control.
+                    <br />
+                    Now, serious capital can earn predictable, amplified returns
+                    without the chaos of legacy DeFi yield traps
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -85,123 +113,20 @@ const AboutPage = () => {
           <div>
             <InfoTemplate
               msg={
-                "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
+                "Traditional DeFi forces users to choose between earning staking rewards or having liquid capital available for other opportunities."
               }
-              title={
-                "DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"
-              }
+              title={"The Problem"}
             />
           </div>
           <div>
             <InfoTemplate
               msg={
-                "Spiral Stake introduces the first fixed-leverage yield platform tailored for stablecoin holders. By combining Fixed Yield with our protocol-minted stblUSD, users can lock in their borrow rate upfront, access high-yield strategies with ease, and preserve capital — all without relying on lenders or suffering from rate volatility."
+                "A dual-mechanism lending protocol that allows users to borrow against their staked stablecoins while continuing to earn staking rewards, creating opportunities for yield amplification and capital efficiency."
               }
-              title={"Spiral Stake's Solution"}
+              title={"Spiral Stake's solution"}
             />
-          </div>
-
-          <div className="h-[50px] flex flex-col gap-4">
-            {/* <p className="mt-10 text-[14px] font-[400] text-gray-500">
-              Spiral Stake is a money market for staked stablecoins, letting
-              users access liquidity while still earning staking
-              rewards—maximizing yield without giving up capital access.
-            </p>
-            <div
-              onClick={() => {
-                window.location.href =
-                  "https://spiral-stake.gitbook.io/spiral-stake-docs";
-              }}
-            >
-              <Button fill={false} text={"Read Documentation"} />
-            </div> */}
           </div>
         </div>
-
-        {/* first */}
-        {/* <div className="flex gap-[100px] overflow-x-scroll p-[24px]">
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-csUSDL-30OCT2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">csUSDL</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-cUSD-29JAN2026.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">cUSD</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-cUSDO-20NOV2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">cUSDO</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-fxSAVE-30OCT2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">fxSAVE</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-pUSDe-16OCT2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">pUSDe</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-slvlUSD-25SEP2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">slvlUSD</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-stcUSD-29JAN2026.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">stcUSD</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-sUSDE-27NOV2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">sUSDE</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-USDe-27NOV2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">USDe</p>
-          </div>
-          <div className="flex items-center gap-[12px]">
-            <img
-              src={`public/PT-USR-4DEC2025.svg`}
-              alt=""
-              className="w-[48px]"
-            />
-            <p className="text-[24px]">USR</p>
-          </div>
-        </div> */}
-
         <PoweredBy />
         <RotatingCarousel />
 

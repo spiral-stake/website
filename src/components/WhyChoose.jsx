@@ -12,36 +12,40 @@ const WhyChoose = () => {
           Why choose Spiral Stake?
         </p>
         <p className=" text-center text-[14px] lg:text-[16px] font-[400] text-gray-500">
-          SpiralStake provides secure, transparent access to yield-bearing liquidity—all in one
-          unified platform.
+          SpiralStake provides secure, transparent access to yield-bearing
+          liquidity—all in one unified platform.
         </p>
       </div>
       <div className="flex flex-col lg:grid grid-cols-2 grid-rows-2 gap-[16px] lg:gap-6">
         <InfoCard
           colorfull={true}
           symbol={growth}
-          info={"Leveraged yields, automated — no more complex steps."}
-          title={"Effortless Stable Leveraged Yields"}
+          info={
+            "Spiral Stake leverages battle tested, highly audited Pendle & Morpho for locking stable yield. \nCurated, institutional grade, well backed stablecoins as underlying assets"
+          }
+          title={"Battle Tested Integrations & Stablecoin Assets"}
         />
         <InfoCard
           colorfull={false}
           symbol={coins}
-          info={"stblUSD adoption lowers borrowing costs and boosts leveraged yields over time"}
-          title={"Reducing Borrow Rates, and Higher Yields"}
+          info={
+            "Leverage is customizable but conservative. Our non custodial approach ensures full user control of funds."
+          }
+          title={"Capital security"}
         />
         <InfoCard
           colorfull={false}
-          info={
-            "Borrow rates adjust dynamically based on peg health, liquidity, and demand for stblUSD"
-          }
-          title={"Market-driven Borrow Costs"}
+          info={"Up to 9× loops in a single transaction"}
+          title={"Customizable Leverage"}
           symbol={option}
         />
         <InfoCard
           colorfull={false}
-          info={"Simple, high-yield deposits — not just for DeFi pros."}
+          info={
+            "Locked supply rates with Pendle PTs & controlled borrow rates with Spiral Stake Morpho Markets giving you stable yields upto 90% APY"
+          }
           symbol={balance}
-          title={"Made for the Masses"}
+          title={"Stable, outsized yield"}
         />
       </div>
     </div>

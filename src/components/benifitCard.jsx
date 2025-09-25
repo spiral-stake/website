@@ -1,6 +1,6 @@
 const BenifitCard = ({ logo, title, body }) => {
   return (
-    <div className="flex flex-col justify-center gap-2 lg:max-w-[200px]">
+    <div className="flex flex-col justify-center gap-2 lg:max-w-[250px]">
       <div>
         <img src={logo} alt="" />
       </div>

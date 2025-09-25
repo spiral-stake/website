@@ -8,7 +8,7 @@ const InfoCard = ({ symbol, title, info, colorfull }) => {
       </div>
       <div className="text-left flex flex-col gap-[12px] lg:gap-[4px] font-normal">
         <p className="text-[20px] lg:text-[24px]">{title}</p>
-        <p className="text-[14px] lg:text-[16px]">{info}</p>
+        <p className="text-[14px] lg:text-[16px] whitespace-pre-line">{info}</p>
       </div>
     </div>
   );
