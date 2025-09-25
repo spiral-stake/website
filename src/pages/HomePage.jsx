@@ -13,13 +13,13 @@ const HomePage = () => {
       <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
         <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
           <p>
-            Stablecoin Yields
-            <br /> Supercharged
+            Stable Yields
+            <br /> Supercharged. Secure
           </p>
         </div>
         <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[20px]">
-          The first leveraged looping protocol designed exclusively for stablecoin yields.
-          Delivering maximum yield with zero uncertainty.
+          Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate shocks, no manual
+          loops, just industry outperforming yields at Maturity.
         </p>
 
         <div className="flex flex-row gap-4">
@@ -32,14 +32,14 @@ const HomePage = () => {
             <Button fill={true} text={"Launch app"} />
           </div>
 
-          <div
+          {/* <div
             className=""
             onClick={() => {
               window.open("https://docs.spiralstake.xyz", "_blank");
             }}
           >
             <Button fill={false} text={"Explore Docs"} />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="w-[849px] hidden lg:flex px-4 lg:px-0">

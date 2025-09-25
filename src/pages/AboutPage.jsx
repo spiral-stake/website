@@ -47,7 +47,7 @@ const AboutPage = () => {
               <div className="hidden lg:flex absolute flex-row top-[300px] left-[10px] gap-4">
                 <DotName text={"Problem"} />
                 <InfoTemplate
-                  title={"The Problem"}
+                  title={"DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"}
                   msg={
                     "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
                   }
@@ -56,7 +56,7 @@ const AboutPage = () => {
               <div className="absolute flex flex-row top-[734px] left-[0px] gap-4">
                 <DotName text={"Solution"} />
                 <InfoTemplate
-                  title={"Spiral Stake's Solution"}
+                  title={"Only Until Now"}
                   msg={
                     "The first fixed-leverage yield platform tailored for stablecoin holders. By combining Fixed Yield with our protocol-minted stblUSD, users can lock in their borrow rate upfront, access high-yield strategies with ease, and preserve capital — all without relying on lenders or suffering from rate volatility."
                   }
@@ -82,7 +82,7 @@ const AboutPage = () => {
               msg={
                 "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
               }
-              title={"The problem"}
+              title={"DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"}
             />
           </div>
           <div>
