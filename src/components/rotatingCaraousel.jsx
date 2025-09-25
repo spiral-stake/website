@@ -19,7 +19,7 @@ const RotatingCarousel = () => {
 
   return (
     <div className="w-full flex flex-col gap-[20px] my-[30px] mb-[120px] cursor-default p-8">
-      <p className="text-gray-500 text-[18px] font-[400] mb-6 text-center">
+      <p className="text-gray-400 text-[18px] font-[400] mb-6 text-center">
         Assets you can loop
       </p>
 
