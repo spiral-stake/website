@@ -14,6 +14,8 @@ import globe from "../assets/Globe.svg";
 import MaxYield from "../components/MaxYield";
 import WhyChoose from "../components/WhyChoose";
 import StandsApart from "../components/StandsApart";
+import RotatingCarousel from "../components/rotatingCaraousel";
+import PoweredBy from "../components/poweredBy";
 
 const AboutPage = () => {
   return (
@@ -25,13 +27,14 @@ const AboutPage = () => {
               What is <br /> Spiral Stake?
             </p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
-              Spiral Stake is a stable leveraged yields platform built solely for stablecoins. It
-              lets users amplify returns from their chosen staked stable PTs by locking in a fixed
-              borrow rate using our protocol native stablecoin, stblUSD.
+              Spiral Stake is a stable leveraged yields platform built solely
+              for stablecoins. It lets users amplify returns from their chosen
+              staked stable PTs by locking in a fixed borrow rate using our
+              protocol native stablecoin, stblUSD.
               <br />
               <br />
-              Choose a predictable, high-yield product — without the risk of variable leveraged
-              yield or the hassle of manual looping.
+              Choose a predictable, high-yield product — without the risk of
+              variable leveraged yield or the hassle of manual looping.
             </p>
             <div
               className="hidden lg:flex pt-4"
@@ -47,7 +50,9 @@ const AboutPage = () => {
               <div className="hidden lg:flex absolute flex-row top-[300px] left-[10px] gap-4">
                 <DotName text={"Problem"} />
                 <InfoTemplate
-                  title={"DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"}
+                  title={
+                    "DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"
+                  }
                   msg={
                     "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
                   }
@@ -82,7 +87,9 @@ const AboutPage = () => {
               msg={
                 "Users seeking stable leveraged yield face two major roadblocks: unpredictable borrowing costs and the hassle of manual looping. There's no seamless way to earn high, stable returns without taking on variable-rate risk — until now"
               }
-              title={"DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"}
+              title={
+                "DeFi is in a Yield Trap of Unpredictable R/R & Tedious Loops"
+              }
             />
           </div>
           <div>
@@ -110,6 +117,94 @@ const AboutPage = () => {
             </div> */}
           </div>
         </div>
+
+        {/* first */}
+        {/* <div className="flex gap-[100px] overflow-x-scroll p-[24px]">
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-csUSDL-30OCT2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">csUSDL</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-cUSD-29JAN2026.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">cUSD</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-cUSDO-20NOV2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">cUSDO</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-fxSAVE-30OCT2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">fxSAVE</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-pUSDe-16OCT2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">pUSDe</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-slvlUSD-25SEP2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">slvlUSD</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-stcUSD-29JAN2026.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">stcUSD</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-sUSDE-27NOV2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">sUSDE</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-USDe-27NOV2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">USDe</p>
+          </div>
+          <div className="flex items-center gap-[12px]">
+            <img
+              src={`public/PT-USR-4DEC2025.svg`}
+              alt=""
+              className="w-[48px]"
+            />
+            <p className="text-[24px]">USR</p>
+          </div>
+        </div> */}
+
+        <PoweredBy />
+        <RotatingCarousel />
+
         <WhyChoose />
         <MaxYield />
         {/* <StandsApart /> NEEDS TO BE USED LATER */}

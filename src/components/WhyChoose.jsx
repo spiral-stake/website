@@ -6,7 +6,7 @@ import option from "../assets/option.svg";
 
 const WhyChoose = () => {
   return (
-    <div className="pt-[0] lg:pt-[64px] lg:pb-[120px] px-[16px] lg:px-20 flex flex-col gap-[48px] items-center justify-center">
+    <div className="pt-[0] lg:pt-[120px] lg:pb-[120px] px-[16px] lg:px-20 flex flex-col gap-[48px] items-center justify-center">
       <div className="w-full lg:max-w-[600px] flex flex-col gap-1 justify-center items-center">
         <p className="px-10 text-[32px] lg:text-[40px] font-[600] text-center">
           Why choose Spiral Stake?
