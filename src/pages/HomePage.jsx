@@ -2,37 +2,44 @@ import backgroundImage from "../assets/hero.svg";
 import bg from "../assets/newbg.svg";
 import Lpool from "../assets/LiquidityPool.svg";
 import LpoolMobile from "../assets/LPoolMobile.svg";
-import Button from "../components/Button";
+import Button from "../components/Button.jsx";
+import LogoAnimation from "../components/logoAnimation";
+import logo from "../assets/logo.svg";
 
 const HomePage = () => {
   return (
-    <div
-      id="Home"
-      className="w-full h-fit lg:h-[100vh] mx-auto flex flex-col items-center pt-24 lg:pt-20 justify-between  bgimg"
-    >
-      <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
-        <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
-          <p>
-            Stable Yields
-            <br /> Supercharged. Secure
-          </p>
-        </div>
-        <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[20px]">
-          Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate shocks, no manual
-          loops, just industry outperforming yields at Maturity.
-        </p>
-
-        <div className="flex flex-row gap-4">
-          <div
-            className=""
-            onClick={() => {
-              window.open("https://app.spiralstake.xyz", "_blank");
-            }}
-          >
-            <Button fill={true} text={"Launch app"} />
+    <div>
+   
+        
+      
+      <div
+        id="Home"
+        className="w-full h-fit lg:h-[100vh] mx-auto flex flex-col items-center pt-24 lg:pt-20 justify-between  bgimg"
+      >
+        <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
+          <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
+            <p>
+              Stable Yields
+              <br /> Supercharged. Secure
+            </p>
           </div>
+          <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[20px]">
+            Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate
+            shocks, no manual loops, just industry outperforming yields at
+            Maturity.
+          </p>
 
-          {/* <div
+          <div className="flex flex-row gap-4">
+            <div
+              className=""
+              onClick={() => {
+                window.open("https://app.spiralstake.xyz", "_blank");
+              }}
+            >
+              <Button fill={true} text={"Launch app"} />
+            </div>
+
+            {/* <div
             className=""
             onClick={() => {
               window.open("https://docs.spiralstake.xyz", "_blank");
@@ -40,13 +47,14 @@ const HomePage = () => {
           >
             <Button fill={false} text={"Explore Docs"} />
           </div> */}
+          </div>
         </div>
-      </div>
-      <div className="w-[849px] hidden lg:flex px-4 lg:px-0">
-        <img src={Lpool} alt="" />
-      </div>
-      <div className="mx-10 mt-16 flex lg:hidden">
-        <img src={LpoolMobile} alt="" />
+        <div className="w-[849px] hidden lg:flex px-4 lg:px-0">
+          <img src={Lpool} alt="" />
+        </div>
+        <div className="mx-10 mt-16 flex lg:hidden">
+          <img src={LpoolMobile} alt="" />
+        </div>
       </div>
     </div>
   );

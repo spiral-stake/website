@@ -10,8 +10,8 @@ export default {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       animation: {
-        'spin-slow': 'spin 20s linear infinite',
-      },
+    'spin-slow': 'spin 2s linear infinite',
+  },
     },
   },
   plugins: [],

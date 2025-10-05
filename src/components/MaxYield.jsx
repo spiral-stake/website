@@ -9,8 +9,8 @@ const MaxYield = () => {
           Maximize Yield in 3 Simple Steps
         </p>
         <p className=" text-center text-[14px] lg:text-[16px] font-[400] text-gray-500">
-          Spiral Stake makes it easy to unlock liquidity, amplify your position, and earn
-          more—without giving up staking rewards.
+          Spiral Stake makes it easy to unlock liquidity, amplify your position,
+          and earn more—without giving up staking rewards.
         </p>
       </div>
       <div className="grid grid-row-[auto_auto_auto_auto_auto] lg:grid-cols-[auto_auto_auto_auto_auto] gap-[14px] lg:gap-[44px]">
@@ -20,7 +20,7 @@ const MaxYield = () => {
           step={"1"}
           info={"Deposit any stablecoin of your choice"}
         />
-        <div className="pl-[25%] lg:pl-[0]">
+        <div className="pl-[22%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""
@@ -33,7 +33,7 @@ const MaxYield = () => {
           step={"2"}
           info={"Get auto-looped into stable leveraged yield positions"}
         />
-        <div className="pl-[25%] lg:pl-[0]">
+        <div className="pl-[22%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""
