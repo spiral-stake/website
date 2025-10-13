@@ -30,7 +30,7 @@ const RotatingCarousel = () => {
               key={index}
               className="flex items-center gap-3 mx-12 flex-shrink-0"
             >
-              <img src={token.src} alt={token.name} className="w-[48px]" />
+              <img src={token.src} alt={token.name} className="w-[32px] lg:w-[48px]" />
               <p className="text-2xl text-white">{token.name}</p>
             </div>
           ))}

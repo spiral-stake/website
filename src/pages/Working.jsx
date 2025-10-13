@@ -21,10 +21,8 @@ const Working = () => {
       <div>
         <Benifits />
       </div>
-      <div>
-        <Credits />
-      </div>
-      <div className=" w-full h-[650px] mt-[24px] lg:h-[800px] loop relative">
+      
+      <div className="w-full h-[650px] mt-[24px] lg:h-[800px] loop relative">
         <div className="absolute w-full flex justify-center items-center top-0 lg:top-10">
           <Email />
         </div>

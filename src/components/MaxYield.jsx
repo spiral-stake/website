@@ -4,7 +4,7 @@ import arrow from "../assets/arrow.svg";
 const MaxYield = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-[56px] px-[16px] pt-[120px] pb-[64px] lg:px-[80px] lg:py-[120px]">
-      <div className="w-full lg:max-w-[580px] flex flex-col justify-center items-center">
+      <div className="w-full lg:max-w-[580px] flex flex-col gap-2 justify-center items-center">
         <p className="text-[32px] lg:text-[40px] font-[600] text-center">
           Maximize Yield in 3 Simple Steps
         </p>
@@ -20,7 +20,7 @@ const MaxYield = () => {
           step={"1"}
           info={"Deposit any stablecoin of your choice"}
         />
-        <div className="pl-[22%] lg:pl-[0]">
+        <div className="pl-[17%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""
@@ -33,7 +33,7 @@ const MaxYield = () => {
           step={"2"}
           info={"Get auto-looped into stable leveraged yield positions"}
         />
-        <div className="pl-[22%] lg:pl-[0]">
+        <div className="pl-[17%] lg:pl-[0]">
           <img
             src={arrow}
             alt=""

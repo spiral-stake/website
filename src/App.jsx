@@ -39,13 +39,8 @@ function App() {
 
   return (
     <div className="app font-['Outfit']">
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
-        {/* <Routes>
-      <Route path="/home" element={<Home/>}/>
-      <Route path="/about" element={<AboutPage/>}/>
-      <Route path="working" element={<Working/>}/>
-    </Routes> */}
         <Home />
         <AboutPage />
         <Working />

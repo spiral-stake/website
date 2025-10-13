@@ -5,25 +5,33 @@ import LpoolMobile from "../assets/LPoolMobile.svg";
 import Button from "../components/Button.jsx";
 import LogoAnimation from "../components/logoAnimation";
 import logo from "../assets/logo.svg";
+import Navbar from "../components/Navbar.jsx";
 
 const HomePage = () => {
   return (
     <div>
+      
    
         
       
       <div
         id="Home"
-        className="w-full h-fit lg:h-[100vh] mx-auto flex flex-col items-center pt-24 lg:pt-20 justify-between  bgimg"
+        className="w-full h-[844px] lg:h-[100vh] mx-auto flex flex-col items-center justify-between bgimg"
       >
+        {/* navbar */}
+        <div className="w-full">
+          <Navbar/>
+        </div>
+
+        {/* text container */}
         <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
-          <div className="flex flex-col px-6 lg:px-0 text-center text-3xl lg:text-5xl">
+          <div className="flex flex-col px-6 lg:px-0 text-center text-[32px] lg:text-5xl">
             <p>
               Stable Yields
               <br /> Supercharged. Secure
             </p>
           </div>
-          <p className="text-center text-sm lg:text-md  text-gray-400 px-3 lg:px-[20px]">
+          <p className="text-center text-[16px] lg:text-[#D0CCED]  text-[#D0CCED] px-3 lg:px-[20px]">
             Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate
             shocks, no manual loops, just industry outperforming yields at
             Maturity.
@@ -49,6 +57,8 @@ const HomePage = () => {
           </div> */}
           </div>
         </div>
+
+        {/* lpool image */}
         <div className="w-[849px] hidden lg:flex px-4 lg:px-0">
           <img src={Lpool} alt="" />
         </div>

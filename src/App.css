@@ -43,7 +43,9 @@ body {
   background-image: url("./assets/stayLoop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+
 
 .transitions {
   animation-duration: 0.7s;

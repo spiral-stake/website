@@ -16,6 +16,8 @@ import WhyChoose from "../components/WhyChoose";
 import StandsApart from "../components/StandsApart";
 import RotatingCarousel from "../components/rotatingCaraousel";
 import PoweredBy from "../components/poweredBy";
+import { p } from "framer-motion/client";
+import Credits from "../components/Credits";
 
 const AboutPage = () => {
   return (
@@ -23,7 +25,7 @@ const AboutPage = () => {
       <div id="AboutPage">
         <div className="hidden w-full lg:flex flex-col lg:flex-row h-fit lg:h-[1300px] pl-2 pt-4 lg:pl-[80px] lg:pt-[80px]">
           <div className="w-[60%] lg:w-[660px] flex flex-col lg:justify-center gap-4">
-            <p className="text-[32px] lg:text-[50px] font-[500]">
+            <p className="text-[32px] lg:text-[40px] leading-auto tracking-[-2%] font-[500]">
               What is <br /> Spiral Stake?
             </p>
             <p className="hidden lg:flex text-[16px] font-[400] text-gray-400">
@@ -106,14 +108,23 @@ const AboutPage = () => {
         </div>
         {/* for mobile */}
         <div className="lg:hidden relative pt-[64px] pb-4 px-4 w-full flex flex-col gap-24 h-fit globe_mobile">
-          <p className="text-[40px] font-[500]">
-            What is <br />
-            Spiral Stake?
-          </p>
+          <div className="flex flex-col gap-4">
+            <p className="text-[32px] font-[500]">
+              What is <br />
+              Spiral Stake?
+            </p>
+            <p className="text-[12px] font-[400] text-gray-400">
+              Spiral Stake is a non-custodial DeFi platform offering up to 90%
+              stable APY. By combining Pendle PTs, Morpho Markets, and
+              gas-efficient flash leverage, it delivers predictable, scalable
+              returns with full user control.
+            </p>
+            <Button fill={false} text={"Read Documentation"} />
+          </div>
           <div>
             <InfoTemplate
               msg={
-                "Traditional DeFi forces users to choose between earning staking rewards or having liquid capital available for other opportunities."
+                "Unstable rates, poor UX, and manual looping kill investor ROI. High gas fees, low liquidity, and rate spikes increase slippage and risk. These issues limit profitable fixed-yield opportunities and deter serious capital."
               }
               title={"The Problem"}
             />
@@ -121,16 +132,23 @@ const AboutPage = () => {
           <div>
             <InfoTemplate
               msg={
-                "A dual-mechanism lending protocol that allows users to borrow against their staked stablecoins while continuing to earn staking rewards, creating opportunities for yield amplification and capital efficiency."
+                "Fixed returns, safe leverage, and seamless execution replace unstable rates and loops. Morpho’s flash-leverage condenses 9× loops into one gas-efficient transaction. Pendle PTs secure up to 90% stable APY with audited stablecoins. Robust integrations remove UX friction and liquidation risk, letting investors earn predictable, amplified returns."
               }
               title={"Spiral Stake's solution"}
             />
           </div>
         </div>
+
+        
         <PoweredBy />
         <RotatingCarousel />
 
         <WhyChoose />
+
+        <div>
+          <Credits/>
+        </div>
+
         <MaxYield />
         {/* <StandsApart /> NEEDS TO BE USED LATER */}
       </div>
