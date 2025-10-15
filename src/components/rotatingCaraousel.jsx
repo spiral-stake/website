@@ -18,18 +18,13 @@ const RotatingCarousel = () => {
   const allTokens = [...tokens, ...tokens];
 
   return (
-    <div className="w-full flex flex-col gap-[20px] my-[30px] mb-[120px] cursor-default p-8">
-      <p className="text-gray-400 text-[18px] font-[400] mb-6 text-center">
-        Assets you can loop
-      </p>
+    <div className="w-full flex flex-col gap-[20px] my-[30px] mb-[100px] cursor-default p-8">
+      <p className="text-gray-400 text-[18px] font-[400] mb-6 text-center">Assets you can loop</p>
 
       <div className="relative overflow-hidden rounded-lg">
         <div className="flex animate-scroll-left whitespace-nowrap">
           {allTokens.map((token, index) => (
-            <div
-              key={index}
-              className="flex items-center gap-3 mx-12 flex-shrink-0"
-            >
+            <div key={index} className="flex items-center gap-3 mx-12 flex-shrink-0">
               <img src={token.src} alt={token.name} className="w-[32px] lg:w-[48px]" />
               <p className="text-2xl text-white">{token.name}</p>
             </div>

@@ -10,31 +10,26 @@ import Navbar from "../components/Navbar.jsx";
 const HomePage = () => {
   return (
     <div>
-      
-   
-        
-      
       <div
         id="Home"
         className="w-full h-[844px] lg:h-[100vh] mx-auto flex flex-col items-center justify-between bgimg"
       >
         {/* navbar */}
         <div className="w-full">
-          <Navbar/>
+          <Navbar />
         </div>
 
         {/* text container */}
-        <div className="max-w-[530px] flex flex-col pt-10 justify-center items-center gap-4">
+        <div className="max-w-[600px] flex flex-col pt-10 justify-center items-center gap-4">
           <div className="flex flex-col px-6 lg:px-0 text-center text-[32px] lg:text-5xl">
             <p>
               Stable Yields
               <br /> Supercharged. Secure
             </p>
           </div>
-          <p className="text-center text-[16px] lg:text-[#D0CCED]  text-[#D0CCED] px-3 lg:px-[20px]">
-            Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate
-            shocks, no manual loops, just industry outperforming yields at
-            Maturity.
+          <p className="text-center text-[16px] lg:text-[#D0CCED] font-light text-[#D0CCED] px-3 lg:px-[20px]">
+            Lock in up to 90% APY on PTs of battle-tested stablecoins — no rate shocks, no manual
+            loops, just industry outperforming yields at Maturity.
           </p>
 
           <div className="flex flex-row gap-4">
