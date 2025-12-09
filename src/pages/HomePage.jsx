@@ -1,10 +1,6 @@
-import backgroundImage from "../assets/hero.svg";
-import bg from "../assets/newbg.svg";
 import Lpool from "../assets/LiquidityPool.svg";
 import LpoolMobile from "../assets/LPoolMobile.svg";
 import Button from "../components/Button.jsx";
-import LogoAnimation from "../components/logoAnimation";
-import logo from "../assets/logo.svg";
 import Navbar from "../components/Navbar.jsx";
 
 const HomePage = () => {
